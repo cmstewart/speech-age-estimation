@@ -1,0 +1,2 @@
+{"tag": "sp104|q3_age|1", "outcome": "answered", "pred_age": 48}
+{"type": "meta", "sdk_version": "0.4.0", "forensic": {"captured": true, "bodies_seen": 1, "wire_b64_len": 472080, "decoded_len": 354060, "decoded_head_ascii": "ZkxhQwAA", "decoded_is_flac": false, "double_decoded_is_flac": true}}

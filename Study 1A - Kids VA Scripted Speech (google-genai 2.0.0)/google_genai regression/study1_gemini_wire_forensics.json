@@ -1,0 +1,13 @@
+{
+  "gemini_200": {
+    "forensic": {
+      "captured": true,
+      "bodies_seen": 252,
+      "wire_b64_len": 369768,
+      "decoded_len": 277325,
+      "decoded_head_ascii": "fLaC\u0000\u0000\u0000\"",
+      "decoded_is_flac": true
+    },
+    "sdk_version": "2.0.0"
+  }
+}

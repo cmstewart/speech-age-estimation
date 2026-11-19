@@ -1,0 +1,757 @@
+child,actual_age,gender,duration,model,model_label,question,question_label,repeat,outcome,pred_age,refusal_check
+sp104,7,M,7.55,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp104,7,M,7.55,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp104,7,M,7.55,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp104,7,M,7.55,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp104,7,M,7.55,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp104,7,M,7.55,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp104,7,M,7.55,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,7,other
+sp104,7,M,7.55,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,6,other
+sp104,7,M,7.55,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,5,other
+sp150,8,F,6.35,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp150,8,F,6.35,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp150,8,F,6.35,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp150,8,F,6.35,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp150,8,F,6.35,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,yes,,other
+sp150,8,F,6.35,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,yes,,other
+sp150,8,F,6.35,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,10,other
+sp150,8,F,6.35,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,8,other
+sp150,8,F,6.35,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,22,other
+sp169,7,F,6.06,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp169,7,F,6.06,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp169,7,F,6.06,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp169,7,F,6.06,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp169,7,F,6.06,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp169,7,F,6.06,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,yes,,other
+sp169,7,F,6.06,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,10,other
+sp169,7,F,6.06,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,5,other
+sp169,7,F,6.06,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,6,other
+sp232,6,M,7.32,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp232,6,M,7.32,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp232,6,M,7.32,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp232,6,M,7.32,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp232,6,M,7.32,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp232,6,M,7.32,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp232,6,M,7.32,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,4,other
+sp232,6,M,7.32,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,5,other
+sp232,6,M,7.32,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,4,other
+sp243,7,F,6.0,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp243,7,F,6.0,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp243,7,F,6.0,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp243,7,F,6.0,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp243,7,F,6.0,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,yes,,other
+sp243,7,F,6.0,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp243,7,F,6.0,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,6,other
+sp243,7,F,6.0,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,8,other
+sp243,7,F,6.0,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,5,other
+sp262,6,F,6.28,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp262,6,F,6.28,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,yes,,other
+sp262,6,F,6.28,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp262,6,F,6.28,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp262,6,F,6.28,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp262,6,F,6.28,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp262,6,F,6.28,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,2,other
+sp262,6,F,6.28,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,3,other
+sp262,6,F,6.28,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,5,other
+sp316,7,F,6.39,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp316,7,F,6.39,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp316,7,F,6.39,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp316,7,F,6.39,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp316,7,F,6.39,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp316,7,F,6.39,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp316,7,F,6.39,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,7,other
+sp316,7,F,6.39,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,5,other
+sp316,7,F,6.39,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,8,other
+sp358,8,M,5.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp358,8,M,5.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp358,8,M,5.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp358,8,M,5.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp358,8,M,5.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp358,8,M,5.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp358,8,M,5.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,6,other
+sp358,8,M,5.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,8,other
+sp358,8,M,5.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,7,other
+sp367,8,M,6.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp367,8,M,6.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp367,8,M,6.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp367,8,M,6.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp367,8,M,6.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp367,8,M,6.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp367,8,M,6.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,8,other
+sp367,8,M,6.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,10,other
+sp367,8,M,6.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,7,other
+sp376,7,M,5.86,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp376,7,M,5.86,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp376,7,M,5.86,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp376,7,M,5.86,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp376,7,M,5.86,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp376,7,M,5.86,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp376,7,M,5.86,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,7,other
+sp376,7,M,5.86,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,6,other
+sp376,7,M,5.86,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,7,other
+sp396,7,F,5.47,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp396,7,F,5.47,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp396,7,F,5.47,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp396,7,F,5.47,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp396,7,F,5.47,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp396,7,F,5.47,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp396,7,F,5.47,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,8,other
+sp396,7,F,5.47,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,7,other
+sp396,7,F,5.47,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,5,other
+sp413,6,M,6.63,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp413,6,M,6.63,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp413,6,M,6.63,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp413,6,M,6.63,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp413,6,M,6.63,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp413,6,M,6.63,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp413,6,M,6.63,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,7,other
+sp413,6,M,6.63,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,6,other
+sp413,6,M,6.63,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,8,other
+sp440,7,F,5.91,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp440,7,F,5.91,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp440,7,F,5.91,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp440,7,F,5.91,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp440,7,F,5.91,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp440,7,F,5.91,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp440,7,F,5.91,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,7,other
+sp440,7,F,5.91,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,5,other
+sp440,7,F,5.91,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,7,other
+sp463,8,M,6.45,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp463,8,M,6.45,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp463,8,M,6.45,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp463,8,M,6.45,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp463,8,M,6.45,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp463,8,M,6.45,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp463,8,M,6.45,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,9,other
+sp463,8,M,6.45,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,8,other
+sp463,8,M,6.45,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,6,other
+sp464,7,F,8.24,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp464,7,F,8.24,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp464,7,F,8.24,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp464,7,F,8.24,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp464,7,F,8.24,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp464,7,F,8.24,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp464,7,F,8.24,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,6,other
+sp464,7,F,8.24,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,4,other
+sp464,7,F,8.24,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,6,other
+sp492,8,F,5.79,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp492,8,F,5.79,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp492,8,F,5.79,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp492,8,F,5.79,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp492,8,F,5.79,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp492,8,F,5.79,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp492,8,F,5.79,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,7,other
+sp492,8,F,5.79,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,7,other
+sp492,8,F,5.79,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,6,other
+sp519,8,M,6.31,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp519,8,M,6.31,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp519,8,M,6.31,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp519,8,M,6.31,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp519,8,M,6.31,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp519,8,M,6.31,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp519,8,M,6.31,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,6,other
+sp519,8,M,6.31,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,6,other
+sp519,8,M,6.31,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,5,other
+sp567,10,F,5.57,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp567,10,F,5.57,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp567,10,F,5.57,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp567,10,F,5.57,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp567,10,F,5.57,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,yes,,other
+sp567,10,F,5.57,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,yes,,other
+sp567,10,F,5.57,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,10,other
+sp567,10,F,5.57,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,8,other
+sp567,10,F,5.57,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,11,other
+sp590,9,M,6.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp590,9,M,6.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp590,9,M,6.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp590,9,M,6.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp590,9,M,6.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp590,9,M,6.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp590,9,M,6.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,7,other
+sp590,9,M,6.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,8,other
+sp590,9,M,6.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,7,other
+sp593,6,F,6.27,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp593,6,F,6.27,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp593,6,F,6.27,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp593,6,F,6.27,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp593,6,F,6.27,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp593,6,F,6.27,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp593,6,F,6.27,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,4,other
+sp593,6,F,6.27,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,4,other
+sp593,6,F,6.27,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,4,other
+sp605,9,F,5.38,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp605,9,F,5.38,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp605,9,F,5.38,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp605,9,F,5.38,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp605,9,F,5.38,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp605,9,F,5.38,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp605,9,F,5.38,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,6,other
+sp605,9,F,5.38,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,5,other
+sp605,9,F,5.38,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,6,other
+sp611,10,F,5.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp611,10,F,5.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp611,10,F,5.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp611,10,F,5.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp611,10,F,5.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp611,10,F,5.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp611,10,F,5.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,6,other
+sp611,10,F,5.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,7,other
+sp611,10,F,5.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,7,other
+sp626,5,M,7.66,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp626,5,M,7.66,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,yes,,other
+sp626,5,M,7.66,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp626,5,M,7.66,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp626,5,M,7.66,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp626,5,M,7.66,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp626,5,M,7.66,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,6,other
+sp626,5,M,7.66,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,4,other
+sp626,5,M,7.66,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,7,other
+sp795,7,M,5.64,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp795,7,M,5.64,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp795,7,M,5.64,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp795,7,M,5.64,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp795,7,M,5.64,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp795,7,M,5.64,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp795,7,M,5.64,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,7,other
+sp795,7,M,5.64,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,6,other
+sp795,7,M,5.64,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,6,other
+sp846,5,F,6.52,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp846,5,F,6.52,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp846,5,F,6.52,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp846,5,F,6.52,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp846,5,F,6.52,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp846,5,F,6.52,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp846,5,F,6.52,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,6,other
+sp846,5,F,6.52,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,5,other
+sp846,5,F,6.52,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,6,other
+sp965,10,M,4.94,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp965,10,M,4.94,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp965,10,M,4.94,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp965,10,M,4.94,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp965,10,M,4.94,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp965,10,M,4.94,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp965,10,M,4.94,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,8,other
+sp965,10,M,4.94,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,10,other
+sp965,10,M,4.94,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,10,other
+sp979,9,F,4.85,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,yes,,other
+sp979,9,F,4.85,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp979,9,F,4.85,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp979,9,F,4.85,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,yes,,other
+sp979,9,F,4.85,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp979,9,F,4.85,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,yes,,other
+sp979,9,F,4.85,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,9,other
+sp979,9,F,4.85,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,8,other
+sp979,9,F,4.85,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,8,other
+sp993,6,M,6.17,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,1,no,,other
+sp993,6,M,6.17,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,2,no,,other
+sp993,6,M,6.17,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q1_over_13,Over 13?,3,no,,other
+sp993,6,M,6.17,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,1,no,,other
+sp993,6,M,6.17,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,2,no,,other
+sp993,6,M,6.17,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q2_over_18,Over 18?,3,no,,other
+sp993,6,M,6.17,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,answered,8,other
+sp993,6,M,6.17,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,answered,6,other
+sp993,6,M,6.17,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,answered,7,other
+sp104,7,M,7.55,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp104,7,M,7.55,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp104,7,M,7.55,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp104,7,M,7.55,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp104,7,M,7.55,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp104,7,M,7.55,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp104,7,M,7.55,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp104,7,M,7.55,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,no_audio
+sp104,7,M,7.55,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp104,7,M,7.55,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp104,7,M,7.55,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp104,7,M,7.55,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp104,7,M,7.55,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp104,7,M,7.55,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp104,7,M,7.55,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp104,7,M,7.55,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,5,other
+sp104,7,M,7.55,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp104,7,M,7.55,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,5,other
+sp150,8,F,6.35,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp150,8,F,6.35,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp150,8,F,6.35,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp150,8,F,6.35,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp150,8,F,6.35,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp150,8,F,6.35,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp150,8,F,6.35,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp150,8,F,6.35,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,no_audio
+sp150,8,F,6.35,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,no_audio
+sp150,8,F,6.35,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp150,8,F,6.35,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp150,8,F,6.35,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp150,8,F,6.35,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp150,8,F,6.35,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp150,8,F,6.35,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp150,8,F,6.35,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,6,other
+sp150,8,F,6.35,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,8,other
+sp150,8,F,6.35,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,8,other
+sp169,7,F,6.06,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp169,7,F,6.06,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp169,7,F,6.06,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp169,7,F,6.06,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp169,7,F,6.06,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp169,7,F,6.06,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp169,7,F,6.06,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp169,7,F,6.06,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,other
+sp169,7,F,6.06,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp169,7,F,6.06,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp169,7,F,6.06,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp169,7,F,6.06,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp169,7,F,6.06,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp169,7,F,6.06,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp169,7,F,6.06,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp169,7,F,6.06,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,5,other
+sp169,7,F,6.06,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp169,7,F,6.06,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,6,other
+sp232,6,M,7.32,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp232,6,M,7.32,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp232,6,M,7.32,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp232,6,M,7.32,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp232,6,M,7.32,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp232,6,M,7.32,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp232,6,M,7.32,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp232,6,M,7.32,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,other
+sp232,6,M,7.32,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp232,6,M,7.32,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp232,6,M,7.32,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp232,6,M,7.32,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp232,6,M,7.32,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp232,6,M,7.32,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp232,6,M,7.32,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp232,6,M,7.32,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,5,other
+sp232,6,M,7.32,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp232,6,M,7.32,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,5,other
+sp243,7,F,6.0,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp243,7,F,6.0,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp243,7,F,6.0,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp243,7,F,6.0,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp243,7,F,6.0,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp243,7,F,6.0,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp243,7,F,6.0,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,other
+sp243,7,F,6.0,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp243,7,F,6.0,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp243,7,F,6.0,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp243,7,F,6.0,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp243,7,F,6.0,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp243,7,F,6.0,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp243,7,F,6.0,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp243,7,F,6.0,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp243,7,F,6.0,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,5,other
+sp243,7,F,6.0,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp243,7,F,6.0,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,6,other
+sp262,6,F,6.28,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp262,6,F,6.28,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp262,6,F,6.28,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp262,6,F,6.28,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp262,6,F,6.28,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp262,6,F,6.28,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp262,6,F,6.28,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp262,6,F,6.28,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp262,6,F,6.28,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp262,6,F,6.28,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp262,6,F,6.28,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp262,6,F,6.28,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp262,6,F,6.28,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp262,6,F,6.28,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp262,6,F,6.28,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,yes,,other
+sp262,6,F,6.28,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,4,other
+sp262,6,F,6.28,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp262,6,F,6.28,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,6,other
+sp316,7,F,6.39,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp316,7,F,6.39,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp316,7,F,6.39,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp316,7,F,6.39,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp316,7,F,6.39,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp316,7,F,6.39,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp316,7,F,6.39,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,other
+sp316,7,F,6.39,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp316,7,F,6.39,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp316,7,F,6.39,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp316,7,F,6.39,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp316,7,F,6.39,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp316,7,F,6.39,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp316,7,F,6.39,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,yes,,other
+sp316,7,F,6.39,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp316,7,F,6.39,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,8,other
+sp316,7,F,6.39,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp316,7,F,6.39,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,5,other
+sp358,8,M,5.26,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp358,8,M,5.26,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp358,8,M,5.26,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp358,8,M,5.26,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp358,8,M,5.26,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp358,8,M,5.26,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp358,8,M,5.26,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp358,8,M,5.26,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp358,8,M,5.26,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp358,8,M,5.26,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp358,8,M,5.26,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp358,8,M,5.26,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,yes,,other
+sp358,8,M,5.26,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,yes,,other
+sp358,8,M,5.26,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,yes,,other
+sp358,8,M,5.26,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,yes,,other
+sp358,8,M,5.26,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,5,other
+sp358,8,M,5.26,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp358,8,M,5.26,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,7,other
+sp367,8,M,6.6,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp367,8,M,6.6,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp367,8,M,6.6,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp367,8,M,6.6,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp367,8,M,6.6,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp367,8,M,6.6,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp367,8,M,6.6,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp367,8,M,6.6,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp367,8,M,6.6,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp367,8,M,6.6,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp367,8,M,6.6,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp367,8,M,6.6,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp367,8,M,6.6,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,error:other,,error
+sp367,8,M,6.6,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp367,8,M,6.6,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp367,8,M,6.6,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,6,other
+sp367,8,M,6.6,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,5,other
+sp367,8,M,6.6,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,5,other
+sp376,7,M,5.86,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp376,7,M,5.86,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp376,7,M,5.86,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp376,7,M,5.86,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp376,7,M,5.86,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp376,7,M,5.86,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp376,7,M,5.86,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp376,7,M,5.86,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp376,7,M,5.86,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,no_audio
+sp376,7,M,5.86,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp376,7,M,5.86,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,yes,,other
+sp376,7,M,5.86,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp376,7,M,5.86,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,yes,,other
+sp376,7,M,5.86,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp376,7,M,5.86,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp376,7,M,5.86,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,6,other
+sp376,7,M,5.86,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,5,other
+sp376,7,M,5.86,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,7,other
+sp396,7,F,5.47,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp396,7,F,5.47,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp396,7,F,5.47,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp396,7,F,5.47,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp396,7,F,5.47,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp396,7,F,5.47,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp396,7,F,5.47,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp396,7,F,5.47,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp396,7,F,5.47,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp396,7,F,5.47,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp396,7,F,5.47,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp396,7,F,5.47,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp396,7,F,5.47,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp396,7,F,5.47,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp396,7,F,5.47,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp396,7,F,5.47,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,7,other
+sp396,7,F,5.47,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp396,7,F,5.47,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,7,other
+sp413,6,M,6.63,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp413,6,M,6.63,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp413,6,M,6.63,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp413,6,M,6.63,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp413,6,M,6.63,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp413,6,M,6.63,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp413,6,M,6.63,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp413,6,M,6.63,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp413,6,M,6.63,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp413,6,M,6.63,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,yes,,other
+sp413,6,M,6.63,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,yes,,other
+sp413,6,M,6.63,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp413,6,M,6.63,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp413,6,M,6.63,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp413,6,M,6.63,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp413,6,M,6.63,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,6,other
+sp413,6,M,6.63,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp413,6,M,6.63,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,6,other
+sp440,7,F,5.91,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp440,7,F,5.91,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp440,7,F,5.91,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp440,7,F,5.91,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp440,7,F,5.91,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp440,7,F,5.91,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp440,7,F,5.91,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp440,7,F,5.91,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp440,7,F,5.91,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,other
+sp440,7,F,5.91,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp440,7,F,5.91,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp440,7,F,5.91,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,yes,,other
+sp440,7,F,5.91,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp440,7,F,5.91,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp440,7,F,5.91,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp440,7,F,5.91,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,6,other
+sp440,7,F,5.91,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp440,7,F,5.91,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,5,other
+sp463,8,M,6.45,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp463,8,M,6.45,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp463,8,M,6.45,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp463,8,M,6.45,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp463,8,M,6.45,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp463,8,M,6.45,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp463,8,M,6.45,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp463,8,M,6.45,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp463,8,M,6.45,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp463,8,M,6.45,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp463,8,M,6.45,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,yes,,other
+sp463,8,M,6.45,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,yes,,other
+sp463,8,M,6.45,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp463,8,M,6.45,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp463,8,M,6.45,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp463,8,M,6.45,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,7,other
+sp463,8,M,6.45,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,8,other
+sp463,8,M,6.45,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,6,other
+sp464,7,F,8.24,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp464,7,F,8.24,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp464,7,F,8.24,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp464,7,F,8.24,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp464,7,F,8.24,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp464,7,F,8.24,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp464,7,F,8.24,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp464,7,F,8.24,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp464,7,F,8.24,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp464,7,F,8.24,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp464,7,F,8.24,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp464,7,F,8.24,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,yes,,other
+sp464,7,F,8.24,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp464,7,F,8.24,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp464,7,F,8.24,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp464,7,F,8.24,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,3,other
+sp464,7,F,8.24,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,5,other
+sp464,7,F,8.24,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,4,other
+sp492,8,F,5.79,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp492,8,F,5.79,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp492,8,F,5.79,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp492,8,F,5.79,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp492,8,F,5.79,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp492,8,F,5.79,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp492,8,F,5.79,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp492,8,F,5.79,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,other
+sp492,8,F,5.79,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp492,8,F,5.79,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp492,8,F,5.79,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,yes,,other
+sp492,8,F,5.79,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp492,8,F,5.79,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp492,8,F,5.79,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp492,8,F,5.79,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp492,8,F,5.79,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,5,other
+sp492,8,F,5.79,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp492,8,F,5.79,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,7,other
+sp519,8,M,6.31,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp519,8,M,6.31,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp519,8,M,6.31,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp519,8,M,6.31,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp519,8,M,6.31,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp519,8,M,6.31,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp519,8,M,6.31,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,other
+sp519,8,M,6.31,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,other
+sp519,8,M,6.31,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp519,8,M,6.31,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp519,8,M,6.31,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp519,8,M,6.31,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp519,8,M,6.31,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp519,8,M,6.31,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp519,8,M,6.31,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp519,8,M,6.31,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,6,other
+sp519,8,M,6.31,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp519,8,M,6.31,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,8,other
+sp567,10,F,5.57,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp567,10,F,5.57,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp567,10,F,5.57,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp567,10,F,5.57,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp567,10,F,5.57,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp567,10,F,5.57,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp567,10,F,5.57,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,other
+sp567,10,F,5.57,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp567,10,F,5.57,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,other
+sp567,10,F,5.57,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,yes,,other
+sp567,10,F,5.57,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp567,10,F,5.57,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp567,10,F,5.57,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp567,10,F,5.57,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp567,10,F,5.57,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp567,10,F,5.57,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,6,other
+sp567,10,F,5.57,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp567,10,F,5.57,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,6,other
+sp590,9,M,6.26,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp590,9,M,6.26,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp590,9,M,6.26,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp590,9,M,6.26,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp590,9,M,6.26,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp590,9,M,6.26,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp590,9,M,6.26,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,other
+sp590,9,M,6.26,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,other
+sp590,9,M,6.26,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,other
+sp590,9,M,6.26,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,yes,,other
+sp590,9,M,6.26,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp590,9,M,6.26,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp590,9,M,6.26,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp590,9,M,6.26,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp590,9,M,6.26,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp590,9,M,6.26,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,5,other
+sp590,9,M,6.26,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,5,other
+sp590,9,M,6.26,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,6,other
+sp593,6,F,6.27,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp593,6,F,6.27,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp593,6,F,6.27,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp593,6,F,6.27,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp593,6,F,6.27,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp593,6,F,6.27,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp593,6,F,6.27,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp593,6,F,6.27,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp593,6,F,6.27,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp593,6,F,6.27,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp593,6,F,6.27,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp593,6,F,6.27,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp593,6,F,6.27,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp593,6,F,6.27,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp593,6,F,6.27,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp593,6,F,6.27,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,5,other
+sp593,6,F,6.27,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,5,other
+sp593,6,F,6.27,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,4,other
+sp605,9,F,5.38,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp605,9,F,5.38,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp605,9,F,5.38,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp605,9,F,5.38,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp605,9,F,5.38,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp605,9,F,5.38,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp605,9,F,5.38,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,other
+sp605,9,F,5.38,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,other
+sp605,9,F,5.38,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp605,9,F,5.38,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp605,9,F,5.38,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,yes,,other
+sp605,9,F,5.38,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp605,9,F,5.38,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp605,9,F,5.38,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp605,9,F,5.38,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp605,9,F,5.38,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,6,other
+sp605,9,F,5.38,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp605,9,F,5.38,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,6,other
+sp611,10,F,5.6,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp611,10,F,5.6,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp611,10,F,5.6,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp611,10,F,5.6,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp611,10,F,5.6,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp611,10,F,5.6,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp611,10,F,5.6,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,other
+sp611,10,F,5.6,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,other
+sp611,10,F,5.6,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,other
+sp611,10,F,5.6,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,yes,,other
+sp611,10,F,5.6,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp611,10,F,5.6,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,yes,,other
+sp611,10,F,5.6,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp611,10,F,5.6,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp611,10,F,5.6,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,yes,,other
+sp611,10,F,5.6,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,6,other
+sp611,10,F,5.6,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp611,10,F,5.6,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,6,other
+sp626,5,M,7.66,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp626,5,M,7.66,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp626,5,M,7.66,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp626,5,M,7.66,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp626,5,M,7.66,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp626,5,M,7.66,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp626,5,M,7.66,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,other
+sp626,5,M,7.66,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp626,5,M,7.66,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp626,5,M,7.66,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp626,5,M,7.66,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp626,5,M,7.66,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp626,5,M,7.66,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp626,5,M,7.66,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp626,5,M,7.66,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp626,5,M,7.66,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,5,other
+sp626,5,M,7.66,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,4,other
+sp626,5,M,7.66,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,5,other
+sp795,7,M,5.64,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp795,7,M,5.64,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp795,7,M,5.64,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp795,7,M,5.64,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp795,7,M,5.64,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp795,7,M,5.64,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp795,7,M,5.64,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp795,7,M,5.64,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp795,7,M,5.64,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp795,7,M,5.64,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,yes,,other
+sp795,7,M,5.64,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp795,7,M,5.64,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp795,7,M,5.64,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp795,7,M,5.64,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp795,7,M,5.64,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp795,7,M,5.64,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,6,other
+sp795,7,M,5.64,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp795,7,M,5.64,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,6,other
+sp846,5,F,6.52,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp846,5,F,6.52,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp846,5,F,6.52,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp846,5,F,6.52,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp846,5,F,6.52,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp846,5,F,6.52,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp846,5,F,6.52,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,no_audio
+sp846,5,F,6.52,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,other
+sp846,5,F,6.52,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp846,5,F,6.52,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp846,5,F,6.52,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp846,5,F,6.52,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp846,5,F,6.52,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp846,5,F,6.52,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp846,5,F,6.52,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp846,5,F,6.52,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,5,other
+sp846,5,F,6.52,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,8,other
+sp846,5,F,6.52,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,5,other
+sp965,10,M,4.94,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp965,10,M,4.94,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp965,10,M,4.94,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp965,10,M,4.94,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp965,10,M,4.94,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp965,10,M,4.94,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp965,10,M,4.94,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,refused
+sp965,10,M,4.94,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,refused
+sp965,10,M,4.94,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp965,10,M,4.94,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,yes,,other
+sp965,10,M,4.94,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,yes,,other
+sp965,10,M,4.94,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,yes,,other
+sp965,10,M,4.94,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,yes,,other
+sp965,10,M,4.94,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,yes,,other
+sp965,10,M,4.94,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,yes,,other
+sp965,10,M,4.94,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,10,other
+sp965,10,M,4.94,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,10,other
+sp965,10,M,4.94,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,8,other
+sp979,9,F,4.85,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp979,9,F,4.85,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp979,9,F,4.85,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp979,9,F,4.85,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp979,9,F,4.85,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp979,9,F,4.85,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp979,9,F,4.85,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,other
+sp979,9,F,4.85,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,other
+sp979,9,F,4.85,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp979,9,F,4.85,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp979,9,F,4.85,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,yes,,other
+sp979,9,F,4.85,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,yes,,other
+sp979,9,F,4.85,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp979,9,F,4.85,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp979,9,F,4.85,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp979,9,F,4.85,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,5,other
+sp979,9,F,4.85,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp979,9,F,4.85,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,12,other
+sp993,6,M,6.17,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,1,refusal,,refused
+sp993,6,M,6.17,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,2,refusal,,refused
+sp993,6,M,6.17,gpt_audio,gpt-audio (2025-08-28),q1_over_13,Over 13?,3,refusal,,refused
+sp993,6,M,6.17,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,1,refusal,,refused
+sp993,6,M,6.17,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,2,refusal,,refused
+sp993,6,M,6.17,gpt_audio,gpt-audio (2025-08-28),q2_over_18,Over 18?,3,refusal,,refused
+sp993,6,M,6.17,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,1,no_age,,no_audio
+sp993,6,M,6.17,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,2,no_age,,other
+sp993,6,M,6.17,gpt_audio,gpt-audio (2025-08-28),q3_age,Age estimate,3,no_age,,refused
+sp993,6,M,6.17,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,1,no,,other
+sp993,6,M,6.17,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,2,no,,other
+sp993,6,M,6.17,nemotron,Nemotron 3 Nano Omni,q1_over_13,Over 13?,3,no,,other
+sp993,6,M,6.17,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,1,no,,other
+sp993,6,M,6.17,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,2,no,,other
+sp993,6,M,6.17,nemotron,Nemotron 3 Nano Omni,q2_over_18,Over 18?,3,no,,other
+sp993,6,M,6.17,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,answered,5,other
+sp993,6,M,6.17,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,answered,6,other
+sp993,6,M,6.17,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,answered,6,other

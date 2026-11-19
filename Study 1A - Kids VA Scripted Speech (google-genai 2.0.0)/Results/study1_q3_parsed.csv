@@ -1,0 +1,169 @@
+child,actual_age,gender,duration,model,model_label,question,question_label,repeat,pred_age,signed_error,outcome,refusal_check
+sp104,7,M,7.55,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,7.0,0.0,answered,other
+sp104,7,M,7.55,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,6.0,-1.0,answered,other
+sp104,7,M,7.55,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,5.0,-2.0,answered,other
+sp150,8,F,6.35,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,10.0,2.0,answered,other
+sp150,8,F,6.35,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,8.0,0.0,answered,other
+sp150,8,F,6.35,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,22.0,14.0,answered,other
+sp169,7,F,6.06,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,10.0,3.0,answered,other
+sp169,7,F,6.06,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,5.0,-2.0,answered,other
+sp169,7,F,6.06,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,6.0,-1.0,answered,other
+sp232,6,M,7.32,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,4.0,-2.0,answered,other
+sp232,6,M,7.32,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,5.0,-1.0,answered,other
+sp232,6,M,7.32,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,4.0,-2.0,answered,other
+sp243,7,F,6.0,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,6.0,-1.0,answered,other
+sp243,7,F,6.0,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,8.0,1.0,answered,other
+sp243,7,F,6.0,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,5.0,-2.0,answered,other
+sp262,6,F,6.28,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,2.0,-4.0,answered,other
+sp262,6,F,6.28,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,3.0,-3.0,answered,other
+sp262,6,F,6.28,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,5.0,-1.0,answered,other
+sp316,7,F,6.39,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,7.0,0.0,answered,other
+sp316,7,F,6.39,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,5.0,-2.0,answered,other
+sp316,7,F,6.39,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,8.0,1.0,answered,other
+sp358,8,M,5.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,6.0,-2.0,answered,other
+sp358,8,M,5.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,8.0,0.0,answered,other
+sp358,8,M,5.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,7.0,-1.0,answered,other
+sp367,8,M,6.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,8.0,0.0,answered,other
+sp367,8,M,6.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,10.0,2.0,answered,other
+sp367,8,M,6.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,7.0,-1.0,answered,other
+sp376,7,M,5.86,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,7.0,0.0,answered,other
+sp376,7,M,5.86,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,6.0,-1.0,answered,other
+sp376,7,M,5.86,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,7.0,0.0,answered,other
+sp396,7,F,5.47,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,8.0,1.0,answered,other
+sp396,7,F,5.47,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,7.0,0.0,answered,other
+sp396,7,F,5.47,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,5.0,-2.0,answered,other
+sp413,6,M,6.63,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,7.0,1.0,answered,other
+sp413,6,M,6.63,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,6.0,0.0,answered,other
+sp413,6,M,6.63,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,8.0,2.0,answered,other
+sp440,7,F,5.91,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,7.0,0.0,answered,other
+sp440,7,F,5.91,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,5.0,-2.0,answered,other
+sp440,7,F,5.91,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,7.0,0.0,answered,other
+sp463,8,M,6.45,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,9.0,1.0,answered,other
+sp463,8,M,6.45,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,8.0,0.0,answered,other
+sp463,8,M,6.45,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,6.0,-2.0,answered,other
+sp464,7,F,8.24,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,6.0,-1.0,answered,other
+sp464,7,F,8.24,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,4.0,-3.0,answered,other
+sp464,7,F,8.24,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,6.0,-1.0,answered,other
+sp492,8,F,5.79,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,7.0,-1.0,answered,other
+sp492,8,F,5.79,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,7.0,-1.0,answered,other
+sp492,8,F,5.79,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,6.0,-2.0,answered,other
+sp519,8,M,6.31,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,6.0,-2.0,answered,other
+sp519,8,M,6.31,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,6.0,-2.0,answered,other
+sp519,8,M,6.31,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,5.0,-3.0,answered,other
+sp567,10,F,5.57,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,10.0,0.0,answered,other
+sp567,10,F,5.57,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,8.0,-2.0,answered,other
+sp567,10,F,5.57,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,11.0,1.0,answered,other
+sp590,9,M,6.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,7.0,-2.0,answered,other
+sp590,9,M,6.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,8.0,-1.0,answered,other
+sp590,9,M,6.26,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,7.0,-2.0,answered,other
+sp593,6,F,6.27,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,4.0,-2.0,answered,other
+sp593,6,F,6.27,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,4.0,-2.0,answered,other
+sp593,6,F,6.27,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,4.0,-2.0,answered,other
+sp605,9,F,5.38,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,6.0,-3.0,answered,other
+sp605,9,F,5.38,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,5.0,-4.0,answered,other
+sp605,9,F,5.38,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,6.0,-3.0,answered,other
+sp611,10,F,5.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,6.0,-4.0,answered,other
+sp611,10,F,5.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,7.0,-3.0,answered,other
+sp611,10,F,5.6,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,7.0,-3.0,answered,other
+sp626,5,M,7.66,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,6.0,1.0,answered,other
+sp626,5,M,7.66,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,4.0,-1.0,answered,other
+sp626,5,M,7.66,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,7.0,2.0,answered,other
+sp795,7,M,5.64,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,7.0,0.0,answered,other
+sp795,7,M,5.64,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,6.0,-1.0,answered,other
+sp795,7,M,5.64,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,6.0,-1.0,answered,other
+sp846,5,F,6.52,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,6.0,1.0,answered,other
+sp846,5,F,6.52,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,5.0,0.0,answered,other
+sp846,5,F,6.52,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,6.0,1.0,answered,other
+sp965,10,M,4.94,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,8.0,-2.0,answered,other
+sp965,10,M,4.94,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,10.0,0.0,answered,other
+sp965,10,M,4.94,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,10.0,0.0,answered,other
+sp979,9,F,4.85,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,9.0,0.0,answered,other
+sp979,9,F,4.85,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,8.0,-1.0,answered,other
+sp979,9,F,4.85,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,8.0,-1.0,answered,other
+sp993,6,M,6.17,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,1,8.0,2.0,answered,other
+sp993,6,M,6.17,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,2,6.0,0.0,answered,other
+sp993,6,M,6.17,gemini_200,Gemini 2.5 Flash (genai 2.0.0),q3_age,Age estimate,3,7.0,1.0,answered,other
+sp104,7,M,7.55,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,5.0,-2.0,answered,other
+sp104,7,M,7.55,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,-1.0,answered,other
+sp104,7,M,7.55,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,5.0,-2.0,answered,other
+sp150,8,F,6.35,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,6.0,-2.0,answered,other
+sp150,8,F,6.35,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,8.0,0.0,answered,other
+sp150,8,F,6.35,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,8.0,0.0,answered,other
+sp169,7,F,6.06,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,5.0,-2.0,answered,other
+sp169,7,F,6.06,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,-1.0,answered,other
+sp169,7,F,6.06,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,6.0,-1.0,answered,other
+sp232,6,M,7.32,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,5.0,-1.0,answered,other
+sp232,6,M,7.32,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,0.0,answered,other
+sp232,6,M,7.32,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,5.0,-1.0,answered,other
+sp243,7,F,6.0,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,5.0,-2.0,answered,other
+sp243,7,F,6.0,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,-1.0,answered,other
+sp243,7,F,6.0,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,6.0,-1.0,answered,other
+sp262,6,F,6.28,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,4.0,-2.0,answered,other
+sp262,6,F,6.28,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,0.0,answered,other
+sp262,6,F,6.28,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,6.0,0.0,answered,other
+sp316,7,F,6.39,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,8.0,1.0,answered,other
+sp316,7,F,6.39,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,-1.0,answered,other
+sp316,7,F,6.39,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,5.0,-2.0,answered,other
+sp358,8,M,5.26,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,5.0,-3.0,answered,other
+sp358,8,M,5.26,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,-2.0,answered,other
+sp358,8,M,5.26,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,7.0,-1.0,answered,other
+sp367,8,M,6.6,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,6.0,-2.0,answered,other
+sp367,8,M,6.6,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,5.0,-3.0,answered,other
+sp367,8,M,6.6,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,5.0,-3.0,answered,other
+sp376,7,M,5.86,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,6.0,-1.0,answered,other
+sp376,7,M,5.86,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,5.0,-2.0,answered,other
+sp376,7,M,5.86,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,7.0,0.0,answered,other
+sp396,7,F,5.47,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,7.0,0.0,answered,other
+sp396,7,F,5.47,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,-1.0,answered,other
+sp396,7,F,5.47,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,7.0,0.0,answered,other
+sp413,6,M,6.63,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,6.0,0.0,answered,other
+sp413,6,M,6.63,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,0.0,answered,other
+sp413,6,M,6.63,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,6.0,0.0,answered,other
+sp440,7,F,5.91,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,6.0,-1.0,answered,other
+sp440,7,F,5.91,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,-1.0,answered,other
+sp440,7,F,5.91,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,5.0,-2.0,answered,other
+sp463,8,M,6.45,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,7.0,-1.0,answered,other
+sp463,8,M,6.45,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,8.0,0.0,answered,other
+sp463,8,M,6.45,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,6.0,-2.0,answered,other
+sp464,7,F,8.24,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,3.0,-4.0,answered,other
+sp464,7,F,8.24,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,5.0,-2.0,answered,other
+sp464,7,F,8.24,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,4.0,-3.0,answered,other
+sp492,8,F,5.79,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,5.0,-3.0,answered,other
+sp492,8,F,5.79,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,-2.0,answered,other
+sp492,8,F,5.79,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,7.0,-1.0,answered,other
+sp519,8,M,6.31,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,6.0,-2.0,answered,other
+sp519,8,M,6.31,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,-2.0,answered,other
+sp519,8,M,6.31,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,8.0,0.0,answered,other
+sp567,10,F,5.57,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,6.0,-4.0,answered,other
+sp567,10,F,5.57,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,-4.0,answered,other
+sp567,10,F,5.57,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,6.0,-4.0,answered,other
+sp590,9,M,6.26,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,5.0,-4.0,answered,other
+sp590,9,M,6.26,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,5.0,-4.0,answered,other
+sp590,9,M,6.26,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,6.0,-3.0,answered,other
+sp593,6,F,6.27,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,5.0,-1.0,answered,other
+sp593,6,F,6.27,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,5.0,-1.0,answered,other
+sp593,6,F,6.27,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,4.0,-2.0,answered,other
+sp605,9,F,5.38,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,6.0,-3.0,answered,other
+sp605,9,F,5.38,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,-3.0,answered,other
+sp605,9,F,5.38,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,6.0,-3.0,answered,other
+sp611,10,F,5.6,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,6.0,-4.0,answered,other
+sp611,10,F,5.6,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,-4.0,answered,other
+sp611,10,F,5.6,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,6.0,-4.0,answered,other
+sp626,5,M,7.66,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,5.0,0.0,answered,other
+sp626,5,M,7.66,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,4.0,-1.0,answered,other
+sp626,5,M,7.66,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,5.0,0.0,answered,other
+sp795,7,M,5.64,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,6.0,-1.0,answered,other
+sp795,7,M,5.64,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,-1.0,answered,other
+sp795,7,M,5.64,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,6.0,-1.0,answered,other
+sp846,5,F,6.52,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,5.0,0.0,answered,other
+sp846,5,F,6.52,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,8.0,3.0,answered,other
+sp846,5,F,6.52,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,5.0,0.0,answered,other
+sp965,10,M,4.94,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,10.0,0.0,answered,other
+sp965,10,M,4.94,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,10.0,0.0,answered,other
+sp965,10,M,4.94,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,8.0,-2.0,answered,other
+sp979,9,F,4.85,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,5.0,-4.0,answered,other
+sp979,9,F,4.85,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,-3.0,answered,other
+sp979,9,F,4.85,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,12.0,3.0,answered,other
+sp993,6,M,6.17,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,1,5.0,-1.0,answered,other
+sp993,6,M,6.17,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,2,6.0,0.0,answered,other
+sp993,6,M,6.17,nemotron,Nemotron 3 Nano Omni,q3_age,Age estimate,3,6.0,0.0,answered,other

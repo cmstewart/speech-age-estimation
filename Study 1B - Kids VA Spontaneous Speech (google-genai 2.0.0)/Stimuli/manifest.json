@@ -1,0 +1,254 @@
+[
+ {
+  "child": "sp104",
+  "age": 7,
+  "gender": "M",
+  "target_duration": 7.55,
+  "actual_duration": 8.05,
+  "n_utterances": 3,
+  "audio_file": "sp104_spontaneous.flac"
+ },
+ {
+  "child": "sp150",
+  "age": 8,
+  "gender": "F",
+  "target_duration": 6.35,
+  "actual_duration": 6.85,
+  "n_utterances": 2,
+  "audio_file": "sp150_spontaneous.flac"
+ },
+ {
+  "child": "sp169",
+  "age": 7,
+  "gender": "F",
+  "target_duration": 6.06,
+  "actual_duration": 6.56,
+  "n_utterances": 2,
+  "audio_file": "sp169_spontaneous.flac"
+ },
+ {
+  "child": "sp232",
+  "age": 6,
+  "gender": "M",
+  "target_duration": 7.32,
+  "actual_duration": 7.28,
+  "n_utterances": 1,
+  "audio_file": "sp232_spontaneous.flac"
+ },
+ {
+  "child": "sp243",
+  "age": 7,
+  "gender": "F",
+  "target_duration": 6.0,
+  "actual_duration": 5.96,
+  "n_utterances": 1,
+  "audio_file": "sp243_spontaneous.flac"
+ },
+ {
+  "child": "sp262",
+  "age": 6,
+  "gender": "F",
+  "target_duration": 6.28,
+  "actual_duration": 6.78,
+  "n_utterances": 3,
+  "audio_file": "sp262_spontaneous.flac"
+ },
+ {
+  "child": "sp316",
+  "age": 7,
+  "gender": "F",
+  "target_duration": 6.39,
+  "actual_duration": 6.05,
+  "n_utterances": 1,
+  "audio_file": "sp316_spontaneous.flac"
+ },
+ {
+  "child": "sp358",
+  "age": 8,
+  "gender": "M",
+  "target_duration": 5.26,
+  "actual_duration": 5.76,
+  "n_utterances": 2,
+  "audio_file": "sp358_spontaneous.flac"
+ },
+ {
+  "child": "sp367",
+  "age": 8,
+  "gender": "M",
+  "target_duration": 6.6,
+  "actual_duration": 4.83,
+  "n_utterances": 1,
+  "audio_file": "sp367_spontaneous.flac"
+ },
+ {
+  "child": "sp376",
+  "age": 7,
+  "gender": "M",
+  "target_duration": 5.86,
+  "actual_duration": 6.06,
+  "n_utterances": 1,
+  "audio_file": "sp376_spontaneous.flac"
+ },
+ {
+  "child": "sp396",
+  "age": 7,
+  "gender": "F",
+  "target_duration": 5.47,
+  "actual_duration": 5.97,
+  "n_utterances": 1,
+  "audio_file": "sp396_spontaneous.flac"
+ },
+ {
+  "child": "sp413",
+  "age": 6,
+  "gender": "M",
+  "target_duration": 6.63,
+  "actual_duration": 7.13,
+  "n_utterances": 4,
+  "audio_file": "sp413_spontaneous.flac"
+ },
+ {
+  "child": "sp440",
+  "age": 7,
+  "gender": "F",
+  "target_duration": 5.91,
+  "actual_duration": 6.23,
+  "n_utterances": 1,
+  "audio_file": "sp440_spontaneous.flac"
+ },
+ {
+  "child": "sp463",
+  "age": 8,
+  "gender": "M",
+  "target_duration": 6.45,
+  "actual_duration": 6.79,
+  "n_utterances": 1,
+  "audio_file": "sp463_spontaneous.flac"
+ },
+ {
+  "child": "sp464",
+  "age": 7,
+  "gender": "F",
+  "target_duration": 8.24,
+  "actual_duration": 7.37,
+  "n_utterances": 2,
+  "audio_file": "sp464_spontaneous.flac"
+ },
+ {
+  "child": "sp492",
+  "age": 8,
+  "gender": "F",
+  "target_duration": 5.79,
+  "actual_duration": 6.29,
+  "n_utterances": 2,
+  "audio_file": "sp492_spontaneous.flac"
+ },
+ {
+  "child": "sp519",
+  "age": 8,
+  "gender": "M",
+  "target_duration": 6.31,
+  "actual_duration": 6.81,
+  "n_utterances": 2,
+  "audio_file": "sp519_spontaneous.flac"
+ },
+ {
+  "child": "sp567",
+  "age": 10,
+  "gender": "F",
+  "target_duration": 5.57,
+  "actual_duration": 5.49,
+  "n_utterances": 1,
+  "audio_file": "sp567_spontaneous.flac"
+ },
+ {
+  "child": "sp590",
+  "age": 9,
+  "gender": "M",
+  "target_duration": 6.26,
+  "actual_duration": 6.13,
+  "n_utterances": 1,
+  "audio_file": "sp590_spontaneous.flac"
+ },
+ {
+  "child": "sp593",
+  "age": 6,
+  "gender": "F",
+  "target_duration": 6.27,
+  "actual_duration": 5.57,
+  "n_utterances": 1,
+  "audio_file": "sp593_spontaneous.flac"
+ },
+ {
+  "child": "sp605",
+  "age": 9,
+  "gender": "F",
+  "target_duration": 5.38,
+  "actual_duration": 5.88,
+  "n_utterances": 3,
+  "audio_file": "sp605_spontaneous.flac"
+ },
+ {
+  "child": "sp611",
+  "age": 10,
+  "gender": "F",
+  "target_duration": 5.6,
+  "actual_duration": 6.1,
+  "n_utterances": 3,
+  "audio_file": "sp611_spontaneous.flac"
+ },
+ {
+  "child": "sp626",
+  "age": 5,
+  "gender": "M",
+  "target_duration": 7.66,
+  "actual_duration": 8.16,
+  "n_utterances": 2,
+  "audio_file": "sp626_spontaneous.flac"
+ },
+ {
+  "child": "sp795",
+  "age": 7,
+  "gender": "M",
+  "target_duration": 5.64,
+  "actual_duration": 6.11,
+  "n_utterances": 1,
+  "audio_file": "sp795_spontaneous.flac"
+ },
+ {
+  "child": "sp846",
+  "age": 5,
+  "gender": "F",
+  "target_duration": 6.52,
+  "actual_duration": 5.44,
+  "n_utterances": 1,
+  "audio_file": "sp846_spontaneous.flac"
+ },
+ {
+  "child": "sp965",
+  "age": 10,
+  "gender": "M",
+  "target_duration": 4.94,
+  "actual_duration": 4.52,
+  "n_utterances": 1,
+  "audio_file": "sp965_spontaneous.flac"
+ },
+ {
+  "child": "sp979",
+  "age": 9,
+  "gender": "F",
+  "target_duration": 4.85,
+  "actual_duration": 4.85,
+  "n_utterances": 2,
+  "audio_file": "sp979_spontaneous.flac"
+ },
+ {
+  "child": "sp993",
+  "age": 6,
+  "gender": "M",
+  "target_duration": 6.17,
+  "actual_duration": 6.67,
+  "n_utterances": 1,
+  "audio_file": "sp993_spontaneous.flac"
+ }
+]

@@ -1,0 +1,1510 @@
+model,model_label,child,actual_age,gender,condition,noise_type,snr_db,condition_label,question,repeat,pred_age,signed_error,outcome,refusal_check
+gemini,Gemini 2.5 Flash,sp104,7,M,clean,clean,,clean,q3_age,1,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,clean,clean,,clean,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,clean,clean,,clean,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,clean,clean,,clean,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,clean,clean,,clean,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,clean,clean,,clean,q3_age,3,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,4.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,10.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,white,white,10.0,white_snr10,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,white,white,10.0,white_snr10,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,white,white,10.0,white_snr10,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,white,white,10.0,white_snr10,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,white,white,10.0,white_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,white,white,10.0,white_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,pink,pink,10.0,pink_snr10,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,pink,pink,10.0,pink_snr10,q3_age,2,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp104,7,M,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,pink,pink,10.0,pink_snr10,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,pink,pink,10.0,pink_snr10,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp104,7,M,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,clean,clean,,clean,q3_age,1,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,clean,clean,,clean,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,clean,clean,,clean,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,clean,clean,,clean,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,clean,clean,,clean,q3_age,2,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,clean,clean,,clean,q3_age,3,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,10.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,28.0,20.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,9.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,26.0,18.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,23.0,15.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,11.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,white,white,10.0,white_snr10,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,white,white,10.0,white_snr10,q3_age,2,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,white,white,10.0,white_snr10,q3_age,3,11.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,white,white,10.0,white_snr10,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,white,white,10.0,white_snr10,q3_age,2,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,white,white,10.0,white_snr10,q3_age,3,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,pink,pink,10.0,pink_snr10,q3_age,1,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,pink,pink,10.0,pink_snr10,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp150,8,F,pink,pink,10.0,pink_snr10,q3_age,3,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,pink,pink,10.0,pink_snr10,q3_age,1,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,pink,pink,10.0,pink_snr10,q3_age,2,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp150,8,F,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,clean,clean,,clean,q3_age,1,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,clean,clean,,clean,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,clean,clean,,clean,q3_age,3,10.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,clean,clean,,clean,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,clean,clean,,clean,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,clean,clean,,clean,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,4.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,9.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,10.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,11.0,4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,white,white,10.0,white_snr10,q3_age,1,4.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,white,white,10.0,white_snr10,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,white,white,10.0,white_snr10,q3_age,3,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,white,white,10.0,white_snr10,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,white,white,10.0,white_snr10,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,white,white,10.0,white_snr10,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,pink,pink,10.0,pink_snr10,q3_age,1,12.0,5.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,pink,pink,10.0,pink_snr10,q3_age,2,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp169,7,F,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,pink,pink,10.0,pink_snr10,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,pink,pink,10.0,pink_snr10,q3_age,2,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp169,7,F,pink,pink,10.0,pink_snr10,q3_age,3,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,clean,clean,,clean,q3_age,1,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,clean,clean,,clean,q3_age,2,3.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,clean,clean,,clean,q3_age,3,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,clean,clean,,clean,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,clean,clean,,clean,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,clean,clean,,clean,q3_age,3,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,3.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,3.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,4.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,white,white,10.0,white_snr10,q3_age,1,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,white,white,10.0,white_snr10,q3_age,2,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,white,white,10.0,white_snr10,q3_age,3,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,white,white,10.0,white_snr10,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,white,white,10.0,white_snr10,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,white,white,10.0,white_snr10,q3_age,3,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,pink,pink,10.0,pink_snr10,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,pink,pink,10.0,pink_snr10,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp232,6,M,pink,pink,10.0,pink_snr10,q3_age,3,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,10.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,pink,pink,10.0,pink_snr10,q3_age,1,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,pink,pink,10.0,pink_snr10,q3_age,2,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp232,6,M,pink,pink,10.0,pink_snr10,q3_age,3,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,clean,clean,,clean,q3_age,1,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,clean,clean,,clean,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,clean,clean,,clean,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,clean,clean,,clean,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,clean,clean,,clean,q3_age,2,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,clean,clean,,clean,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,4.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,10.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,white,white,10.0,white_snr10,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,white,white,10.0,white_snr10,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,white,white,10.0,white_snr10,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,white,white,10.0,white_snr10,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,white,white,10.0,white_snr10,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,white,white,10.0,white_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,pink,pink,10.0,pink_snr10,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,pink,pink,10.0,pink_snr10,q3_age,2,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp243,7,F,pink,pink,10.0,pink_snr10,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,pink,pink,10.0,pink_snr10,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,pink,pink,10.0,pink_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp243,7,F,pink,pink,10.0,pink_snr10,q3_age,3,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,clean,clean,,clean,q3_age,1,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,clean,clean,,clean,q3_age,2,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,clean,clean,,clean,q3_age,3,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,clean,clean,,clean,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,clean,clean,,clean,q3_age,2,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,clean,clean,,clean,q3_age,3,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,10.0,4.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,10.0,4.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,10.0,4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,3.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,8.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,4.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,white,white,10.0,white_snr10,q3_age,1,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,white,white,10.0,white_snr10,q3_age,2,9.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,white,white,10.0,white_snr10,q3_age,3,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,white,white,10.0,white_snr10,q3_age,1,8.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,white,white,10.0,white_snr10,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,white,white,10.0,white_snr10,q3_age,3,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,pink,pink,10.0,pink_snr10,q3_age,1,3.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,pink,pink,10.0,pink_snr10,q3_age,2,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp262,6,F,pink,pink,10.0,pink_snr10,q3_age,3,8.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,pink,pink,10.0,pink_snr10,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,pink,pink,10.0,pink_snr10,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp262,6,F,pink,pink,10.0,pink_snr10,q3_age,3,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,clean,clean,,clean,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,clean,clean,,clean,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,clean,clean,,clean,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,clean,clean,,clean,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,clean,clean,,clean,q3_age,2,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,clean,clean,,clean,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,4.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,9.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,white,white,10.0,white_snr10,q3_age,1,9.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,white,white,10.0,white_snr10,q3_age,2,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,white,white,10.0,white_snr10,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,white,white,10.0,white_snr10,q3_age,1,10.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,white,white,10.0,white_snr10,q3_age,2,10.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,white,white,10.0,white_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,pink,pink,10.0,pink_snr10,q3_age,1,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,pink,pink,10.0,pink_snr10,q3_age,2,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp316,7,F,pink,pink,10.0,pink_snr10,q3_age,3,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,pink,pink,10.0,pink_snr10,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,pink,pink,10.0,pink_snr10,q3_age,2,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp316,7,F,pink,pink,10.0,pink_snr10,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,clean,clean,,clean,q3_age,1,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,clean,clean,,clean,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,clean,clean,,clean,q3_age,3,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,clean,clean,,clean,q3_age,1,30.0,22.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,clean,clean,,clean,q3_age,2,25.0,17.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,clean,clean,,clean,q3_age,3,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,28.0,20.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,white,white,10.0,white_snr10,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,white,white,10.0,white_snr10,q3_age,2,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,white,white,10.0,white_snr10,q3_age,3,10.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,white,white,10.0,white_snr10,q3_age,1,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,white,white,10.0,white_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,white,white,10.0,white_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,pink,pink,10.0,pink_snr10,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,pink,pink,10.0,pink_snr10,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp358,8,M,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,pink,pink,10.0,pink_snr10,q3_age,1,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,pink,pink,10.0,pink_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp358,8,M,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,clean,clean,,clean,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,clean,clean,,clean,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,clean,clean,,clean,q3_age,3,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,clean,clean,,clean,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,clean,clean,,clean,q3_age,2,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,clean,clean,,clean,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,11.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,14.0,6.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,10.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,10.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,white,white,10.0,white_snr10,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,white,white,10.0,white_snr10,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,white,white,10.0,white_snr10,q3_age,3,9.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,white,white,10.0,white_snr10,q3_age,1,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,white,white,10.0,white_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,white,white,10.0,white_snr10,q3_age,3,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,pink,pink,10.0,pink_snr10,q3_age,1,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,pink,pink,10.0,pink_snr10,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp367,8,M,pink,pink,10.0,pink_snr10,q3_age,3,10.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,pink,pink,10.0,pink_snr10,q3_age,1,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,pink,pink,10.0,pink_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp367,8,M,pink,pink,10.0,pink_snr10,q3_age,3,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,clean,clean,,clean,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,clean,clean,,clean,q3_age,2,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,clean,clean,,clean,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,clean,clean,,clean,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,clean,clean,,clean,q3_age,2,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,clean,clean,,clean,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,9.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,25.0,18.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,10.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,10.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,white,white,10.0,white_snr10,q3_age,1,10.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,white,white,10.0,white_snr10,q3_age,2,11.0,4.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,white,white,10.0,white_snr10,q3_age,3,9.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,white,white,10.0,white_snr10,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,white,white,10.0,white_snr10,q3_age,2,12.0,5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,white,white,10.0,white_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,pink,pink,10.0,pink_snr10,q3_age,1,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,pink,pink,10.0,pink_snr10,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp376,7,M,pink,pink,10.0,pink_snr10,q3_age,3,10.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,pink,pink,10.0,pink_snr10,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,pink,pink,10.0,pink_snr10,q3_age,2,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp376,7,M,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,clean,clean,,clean,q3_age,1,9.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,clean,clean,,clean,q3_age,2,10.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,clean,clean,,clean,q3_age,3,11.0,4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,clean,clean,,clean,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,clean,clean,,clean,q3_age,2,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,clean,clean,,clean,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,white,white,10.0,white_snr10,q3_age,1,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,white,white,10.0,white_snr10,q3_age,2,10.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,white,white,10.0,white_snr10,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,white,white,10.0,white_snr10,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,white,white,10.0,white_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,white,white,10.0,white_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,pink,pink,10.0,pink_snr10,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,pink,pink,10.0,pink_snr10,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp396,7,F,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,pink,pink,10.0,pink_snr10,q3_age,1,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,pink,pink,10.0,pink_snr10,q3_age,2,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp396,7,F,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,clean,clean,,clean,q3_age,1,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,clean,clean,,clean,q3_age,2,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,clean,clean,,clean,q3_age,3,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,clean,clean,,clean,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,clean,clean,,clean,q3_age,2,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,clean,clean,,clean,q3_age,3,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,8.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,8.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,10.0,4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,10.0,4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,9.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,8.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,white,white,10.0,white_snr10,q3_age,1,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,white,white,10.0,white_snr10,q3_age,2,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,white,white,10.0,white_snr10,q3_age,3,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,white,white,10.0,white_snr10,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,white,white,10.0,white_snr10,q3_age,2,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,white,white,10.0,white_snr10,q3_age,3,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,pink,pink,10.0,pink_snr10,q3_age,1,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,pink,pink,10.0,pink_snr10,q3_age,2,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp413,6,M,pink,pink,10.0,pink_snr10,q3_age,3,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,pink,pink,10.0,pink_snr10,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,pink,pink,10.0,pink_snr10,q3_age,2,8.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp413,6,M,pink,pink,10.0,pink_snr10,q3_age,3,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,clean,clean,,clean,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,clean,clean,,clean,q3_age,2,4.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,clean,clean,,clean,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,clean,clean,,clean,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,clean,clean,,clean,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,clean,clean,,clean,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,4.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,white,white,10.0,white_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,white,white,10.0,white_snr10,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,white,white,10.0,white_snr10,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,white,white,10.0,white_snr10,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,white,white,10.0,white_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,white,white,10.0,white_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,pink,pink,10.0,pink_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,pink,pink,10.0,pink_snr10,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp440,7,F,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,pink,pink,10.0,pink_snr10,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,pink,pink,10.0,pink_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp440,7,F,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,clean,clean,,clean,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,clean,clean,,clean,q3_age,2,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,clean,clean,,clean,q3_age,3,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,clean,clean,,clean,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,clean,clean,,clean,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,clean,clean,,clean,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,10.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,25.0,17.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,10.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,10.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,9.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,9.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,9.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,10.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,10.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,10.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,9.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,9.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,25.0,17.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,10.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,10.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,white,white,10.0,white_snr10,q3_age,1,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,white,white,10.0,white_snr10,q3_age,2,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,white,white,10.0,white_snr10,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,white,white,10.0,white_snr10,q3_age,1,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,white,white,10.0,white_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,white,white,10.0,white_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,pink,pink,10.0,pink_snr10,q3_age,1,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,pink,pink,10.0,pink_snr10,q3_age,2,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp463,8,M,pink,pink,10.0,pink_snr10,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,pink,pink,10.0,pink_snr10,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,pink,pink,10.0,pink_snr10,q3_age,2,12.0,4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp463,8,M,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,clean,clean,,clean,q3_age,1,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,clean,clean,,clean,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,clean,clean,,clean,q3_age,3,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,clean,clean,,clean,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,clean,clean,,clean,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,clean,clean,,clean,q3_age,3,4.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,3.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,4.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,4.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,3.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,4.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,4.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,4.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,4.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,4.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,4.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,4.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,4.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,4.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,4.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,4.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,3.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,4.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,4.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,white,white,10.0,white_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,white,white,10.0,white_snr10,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,white,white,10.0,white_snr10,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,white,white,10.0,white_snr10,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,white,white,10.0,white_snr10,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,white,white,10.0,white_snr10,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,pink,pink,10.0,pink_snr10,q3_age,1,4.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,pink,pink,10.0,pink_snr10,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp464,7,F,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,pink,pink,10.0,pink_snr10,q3_age,1,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,pink,pink,10.0,pink_snr10,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp464,7,F,pink,pink,10.0,pink_snr10,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,clean,clean,,clean,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,clean,clean,,clean,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,clean,clean,,clean,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,clean,clean,,clean,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,clean,clean,,clean,q3_age,2,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,clean,clean,,clean,q3_age,3,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,12.0,4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,white,white,10.0,white_snr10,q3_age,1,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,white,white,10.0,white_snr10,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,white,white,10.0,white_snr10,q3_age,3,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,white,white,10.0,white_snr10,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,white,white,10.0,white_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,white,white,10.0,white_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,pink,pink,10.0,pink_snr10,q3_age,1,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,pink,pink,10.0,pink_snr10,q3_age,2,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp492,8,F,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,pink,pink,10.0,pink_snr10,q3_age,1,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,pink,pink,10.0,pink_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp492,8,F,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,clean,clean,,clean,q3_age,1,8.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,clean,clean,,clean,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,clean,clean,,clean,q3_age,3,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,clean,clean,,clean,q3_age,1,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,clean,clean,,clean,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,clean,clean,,clean,q3_age,3,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,4.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,5.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,white,white,10.0,white_snr10,q3_age,1,5.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,white,white,10.0,white_snr10,q3_age,2,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,white,white,10.0,white_snr10,q3_age,3,7.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,white,white,10.0,white_snr10,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,white,white,10.0,white_snr10,q3_age,2,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,white,white,10.0,white_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,pink,pink,10.0,pink_snr10,q3_age,1,7.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,pink,pink,10.0,pink_snr10,q3_age,2,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp519,8,M,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,pink,pink,10.0,pink_snr10,q3_age,1,6.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,pink,pink,10.0,pink_snr10,q3_age,2,8.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp519,8,M,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,clean,clean,,clean,q3_age,1,9.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,clean,clean,,clean,q3_age,2,10.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,clean,clean,,clean,q3_age,3,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,clean,clean,,clean,q3_age,1,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,clean,clean,,clean,q3_age,2,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,clean,clean,,clean,q3_age,3,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,10.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,6.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,10.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,18.0,8.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,9.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,5.0,-5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,9.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,10.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,-5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,5.0,-5.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,11.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,10.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,5.0,-5.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,5.0,-5.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,9.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,10.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,5.0,-5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,5.0,-5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,white,white,10.0,white_snr10,q3_age,1,9.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,white,white,10.0,white_snr10,q3_age,2,9.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,white,white,10.0,white_snr10,q3_age,3,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,white,white,10.0,white_snr10,q3_age,1,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,white,white,10.0,white_snr10,q3_age,2,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,white,white,10.0,white_snr10,q3_age,3,6.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,pink,pink,10.0,pink_snr10,q3_age,1,22.0,12.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,pink,pink,10.0,pink_snr10,q3_age,2,18.0,8.0,answered,other
+gemini,Gemini 2.5 Flash,sp567,10,F,pink,pink,10.0,pink_snr10,q3_age,3,10.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,pink,pink,10.0,pink_snr10,q3_age,1,5.0,-5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,pink,pink,10.0,pink_snr10,q3_age,2,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp567,10,F,pink,pink,10.0,pink_snr10,q3_age,3,5.0,-5.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,clean,clean,,clean,q3_age,1,7.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,clean,clean,,clean,q3_age,2,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,clean,clean,,clean,q3_age,3,8.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,clean,clean,,clean,q3_age,1,5.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,clean,clean,,clean,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,clean,clean,,clean,q3_age,3,5.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,10.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,8.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,10.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,10.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,8.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,12.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,9.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,9.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,35.0,26.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,10.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,9.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,10.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,7.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,white,white,10.0,white_snr10,q3_age,1,12.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,white,white,10.0,white_snr10,q3_age,2,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,white,white,10.0,white_snr10,q3_age,3,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,white,white,10.0,white_snr10,q3_age,1,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,white,white,10.0,white_snr10,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,white,white,10.0,white_snr10,q3_age,3,5.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,pink,pink,10.0,pink_snr10,q3_age,1,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,pink,pink,10.0,pink_snr10,q3_age,2,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp590,9,M,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,pink,pink,10.0,pink_snr10,q3_age,1,5.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,pink,pink,10.0,pink_snr10,q3_age,2,5.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp590,9,M,pink,pink,10.0,pink_snr10,q3_age,3,12.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,clean,clean,,clean,q3_age,1,2.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,clean,clean,,clean,q3_age,2,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,clean,clean,,clean,q3_age,3,4.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,clean,clean,,clean,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,clean,clean,,clean,q3_age,2,4.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,clean,clean,,clean,q3_age,3,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,4.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,3.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,4.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,4.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,4.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,4.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,white,white,10.0,white_snr10,q3_age,1,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,white,white,10.0,white_snr10,q3_age,2,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,white,white,10.0,white_snr10,q3_age,3,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,white,white,10.0,white_snr10,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,white,white,10.0,white_snr10,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,white,white,10.0,white_snr10,q3_age,3,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,pink,pink,10.0,pink_snr10,q3_age,1,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,pink,pink,10.0,pink_snr10,q3_age,2,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp593,6,F,pink,pink,10.0,pink_snr10,q3_age,3,3.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,pink,pink,10.0,pink_snr10,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,pink,pink,10.0,pink_snr10,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp593,6,F,pink,pink,10.0,pink_snr10,q3_age,3,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,clean,clean,,clean,q3_age,1,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,clean,clean,,clean,q3_age,2,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,clean,clean,,clean,q3_age,3,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,clean,clean,,clean,q3_age,1,5.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,clean,clean,,clean,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,clean,clean,,clean,q3_age,3,7.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,10.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,5.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,10.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,8.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,20.0,11.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,20.0,11.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,12.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,5.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,5.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,5.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,7.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,9.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,7.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,5.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,7.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,9.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,white,white,10.0,white_snr10,q3_age,1,11.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,white,white,10.0,white_snr10,q3_age,2,9.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,white,white,10.0,white_snr10,q3_age,3,11.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,white,white,10.0,white_snr10,q3_age,1,10.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,white,white,10.0,white_snr10,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,white,white,10.0,white_snr10,q3_age,3,5.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,pink,pink,10.0,pink_snr10,q3_age,1,11.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,pink,pink,10.0,pink_snr10,q3_age,2,10.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp605,9,F,pink,pink,10.0,pink_snr10,q3_age,3,11.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,pink,pink,10.0,pink_snr10,q3_age,1,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,pink,pink,10.0,pink_snr10,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp605,9,F,pink,pink,10.0,pink_snr10,q3_age,3,5.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,clean,clean,,clean,q3_age,1,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,clean,clean,,clean,q3_age,2,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,clean,clean,,clean,q3_age,3,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,clean,clean,,clean,q3_age,1,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,clean,clean,,clean,q3_age,2,5.0,-5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,clean,clean,,clean,q3_age,3,6.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,5.0,-5.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,5.0,-5.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,5.0,-5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,4.0,-6.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,6.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,9.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,10.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,10.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,5.0,-5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,12.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,5.0,-5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,white,white,10.0,white_snr10,q3_age,1,10.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,white,white,10.0,white_snr10,q3_age,2,11.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,white,white,10.0,white_snr10,q3_age,3,10.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,white,white,10.0,white_snr10,q3_age,1,5.0,-5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,white,white,10.0,white_snr10,q3_age,2,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,white,white,10.0,white_snr10,q3_age,3,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,pink,pink,10.0,pink_snr10,q3_age,1,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,pink,pink,10.0,pink_snr10,q3_age,2,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp611,10,F,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,pink,pink,10.0,pink_snr10,q3_age,1,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,pink,pink,10.0,pink_snr10,q3_age,2,5.0,-5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp611,10,F,pink,pink,10.0,pink_snr10,q3_age,3,6.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,clean,clean,,clean,q3_age,1,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,clean,clean,,clean,q3_age,2,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,clean,clean,,clean,q3_age,3,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,clean,clean,,clean,q3_age,1,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,clean,clean,,clean,q3_age,2,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,clean,clean,,clean,q3_age,3,5.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,10.0,5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,5.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,10.0,5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,5.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,9.0,4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,4.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,5.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,7.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,5.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,white,white,10.0,white_snr10,q3_age,1,4.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,white,white,10.0,white_snr10,q3_age,2,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,white,white,10.0,white_snr10,q3_age,3,9.0,4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,white,white,10.0,white_snr10,q3_age,1,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,white,white,10.0,white_snr10,q3_age,2,7.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,white,white,10.0,white_snr10,q3_age,3,5.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,pink,pink,10.0,pink_snr10,q3_age,1,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,pink,pink,10.0,pink_snr10,q3_age,2,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp626,5,M,pink,pink,10.0,pink_snr10,q3_age,3,7.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,pink,pink,10.0,pink_snr10,q3_age,1,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,pink,pink,10.0,pink_snr10,q3_age,2,10.0,5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp626,5,M,pink,pink,10.0,pink_snr10,q3_age,3,8.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,clean,clean,,clean,q3_age,1,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,clean,clean,,clean,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,clean,clean,,clean,q3_age,3,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,clean,clean,,clean,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,clean,clean,,clean,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,clean,clean,,clean,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,10.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,10.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,10.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,12.0,5.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,10.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,10.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,10.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,white,white,10.0,white_snr10,q3_age,1,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,white,white,10.0,white_snr10,q3_age,2,6.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,white,white,10.0,white_snr10,q3_age,3,5.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,white,white,10.0,white_snr10,q3_age,1,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,white,white,10.0,white_snr10,q3_age,2,6.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,white,white,10.0,white_snr10,q3_age,3,5.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,pink,pink,10.0,pink_snr10,q3_age,1,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,pink,pink,10.0,pink_snr10,q3_age,2,7.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp795,7,M,pink,pink,10.0,pink_snr10,q3_age,3,8.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,pink,pink,10.0,pink_snr10,q3_age,1,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,pink,pink,10.0,pink_snr10,q3_age,2,7.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp795,7,M,pink,pink,10.0,pink_snr10,q3_age,3,8.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,clean,clean,,clean,q3_age,1,5.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,clean,clean,,clean,q3_age,2,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,clean,clean,,clean,q3_age,3,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,clean,clean,,clean,q3_age,1,7.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,clean,clean,,clean,q3_age,2,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,clean,clean,,clean,q3_age,3,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,7.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,8.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,5.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,7.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,5.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,7.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,5.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,8.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,7.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,5.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,5.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,white,white,10.0,white_snr10,q3_age,1,8.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,white,white,10.0,white_snr10,q3_age,2,10.0,5.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,white,white,10.0,white_snr10,q3_age,3,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,white,white,10.0,white_snr10,q3_age,1,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,white,white,10.0,white_snr10,q3_age,2,4.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,white,white,10.0,white_snr10,q3_age,3,5.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,pink,pink,10.0,pink_snr10,q3_age,1,8.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,pink,pink,10.0,pink_snr10,q3_age,2,7.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp846,5,F,pink,pink,10.0,pink_snr10,q3_age,3,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,pink,pink,10.0,pink_snr10,q3_age,1,6.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,pink,pink,10.0,pink_snr10,q3_age,2,4.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp846,5,F,pink,pink,10.0,pink_snr10,q3_age,3,4.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,clean,clean,,clean,q3_age,1,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,clean,clean,,clean,q3_age,2,9.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,clean,clean,,clean,q3_age,3,9.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,clean,clean,,clean,q3_age,1,12.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,clean,clean,,clean,q3_age,2,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,clean,clean,,clean,q3_age,3,12.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,5.0,-5.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,11.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,25.0,15.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,12.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,10.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,10.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,10.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,5.0,-5.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,9.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,10.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,7.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,9.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,14.0,4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,10.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,white,white,10.0,white_snr10,q3_age,1,10.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,white,white,10.0,white_snr10,q3_age,2,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,white,white,10.0,white_snr10,q3_age,3,10.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,white,white,10.0,white_snr10,q3_age,1,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,white,white,10.0,white_snr10,q3_age,2,20.0,10.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,white,white,10.0,white_snr10,q3_age,3,10.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,pink,pink,10.0,pink_snr10,q3_age,1,10.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,pink,pink,10.0,pink_snr10,q3_age,2,11.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp965,10,M,pink,pink,10.0,pink_snr10,q3_age,3,7.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,pink,pink,10.0,pink_snr10,q3_age,1,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,pink,pink,10.0,pink_snr10,q3_age,2,8.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp965,10,M,pink,pink,10.0,pink_snr10,q3_age,3,8.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,clean,clean,,clean,q3_age,1,10.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,clean,clean,,clean,q3_age,2,7.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,clean,clean,,clean,q3_age,3,9.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,clean,clean,,clean,q3_age,1,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,clean,clean,,clean,q3_age,2,10.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,clean,clean,,clean,q3_age,3,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,9.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,classroom,classroom,10.0,classroom_snr10,q3_age,1,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,classroom,classroom,10.0,classroom_snr10,q3_age,2,10.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,classroom,classroom,10.0,classroom_snr10,q3_age,3,12.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,8.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,classroom,classroom,20.0,classroom_snr20,q3_age,1,12.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,classroom,classroom,20.0,classroom_snr20,q3_age,3,15.0,6.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,7.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,10.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,10.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,12.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,7.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,5.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,10.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,12.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,21.0,12.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,downtown,downtown,10.0,downtown_snr10,q3_age,1,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,downtown,downtown,10.0,downtown_snr10,q3_age,3,7.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,10.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,8.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,downtown,downtown,20.0,downtown_snr20,q3_age,2,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,white,white,10.0,white_snr10,q3_age,1,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,white,white,10.0,white_snr10,q3_age,2,8.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,white,white,10.0,white_snr10,q3_age,3,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,white,white,10.0,white_snr10,q3_age,1,6.0,-3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,white,white,10.0,white_snr10,q3_age,2,5.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,white,white,10.0,white_snr10,q3_age,3,6.0,-3.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,pink,pink,10.0,pink_snr10,q3_age,1,10.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,pink,pink,10.0,pink_snr10,q3_age,2,13.0,4.0,answered,other
+gemini,Gemini 2.5 Flash,sp979,9,F,pink,pink,10.0,pink_snr10,q3_age,3,7.0,-2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,pink,pink,10.0,pink_snr10,q3_age,1,5.0,-4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,pink,pink,10.0,pink_snr10,q3_age,2,8.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp979,9,F,pink,pink,10.0,pink_snr10,q3_age,3,5.0,-4.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,clean,clean,,clean,q3_age,1,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,clean,clean,,clean,q3_age,2,10.0,4.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,clean,clean,,clean,q3_age,3,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,clean,clean,,clean,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,clean,clean,,clean,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,clean,clean,,clean,q3_age,3,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,4.0,-2.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,8.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,classroom,classroom,10.0,classroom_snr10,q3_age,3,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,10.0,4.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,10.0,4.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,classroom,classroom,20.0,classroom_snr20,q3_age,3,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,9.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,12.0,6.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,1,8.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,coffeeshop,coffeeshop,10.0,coffeeshop_snr10,q3_age,3,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,9.0,3.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,8.0,2.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,coffeeshop,coffeeshop,20.0,coffeeshop_snr20,q3_age,3,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,11.0,5.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,1,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,downtown,downtown,10.0,downtown_snr10,q3_age,3,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,5.0,-1.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,9.0,3.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,1,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,2,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,downtown,downtown,20.0,downtown_snr20,q3_age,3,6.0,0.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,white,white,10.0,white_snr10,q3_age,1,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,white,white,10.0,white_snr10,q3_age,2,8.0,2.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,white,white,10.0,white_snr10,q3_age,3,11.0,5.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,white,white,10.0,white_snr10,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,white,white,10.0,white_snr10,q3_age,2,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,white,white,10.0,white_snr10,q3_age,3,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,pink,pink,10.0,pink_snr10,q3_age,1,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,pink,pink,10.0,pink_snr10,q3_age,2,7.0,1.0,answered,other
+gemini,Gemini 2.5 Flash,sp993,6,M,pink,pink,10.0,pink_snr10,q3_age,3,7.0,1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,pink,pink,10.0,pink_snr10,q3_age,1,5.0,-1.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,pink,pink,10.0,pink_snr10,q3_age,2,6.0,0.0,answered,other
+nemotron,Nemotron 3 Nano Omni,sp993,6,M,pink,pink,10.0,pink_snr10,q3_age,3,5.0,-1.0,answered,other

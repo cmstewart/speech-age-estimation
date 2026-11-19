@@ -1,0 +1,19 @@
+{
+  "model": "audeering/wav2vec2-large-robust-24-ft-age-gender",
+  "model_revision": "bad2737f529168bc3d3fcd97edfaba9583c7d36d",
+  "weights_sha256": {
+    "model.safetensors": "5868cc9548a1dba701654ae4e0599104ba734eb0b3f0a03384f9180d2dfb06a5",
+    "pytorch_model.bin": "5c630cf42d0c47ca32324fb54f73564cf6c0df187fa1ae6843d0d7725e2c073f"
+  },
+  "threshold_rule": "estimate >= 13 and estimate >= 18",
+  "constant_baseline_age": 7.0,
+  "bootstrap_draws": 10000,
+  "seed": 20261119,
+  "deterministic_rerun_matches": true,
+  "python": "3.10.12",
+  "torch": "2.6.0+cpu",
+  "transformers": "5.20.2",
+  "numpy": "2.2.6",
+  "platform": "Linux-6.8.0-138-generic-aarch64-with-glibc2.35",
+  "runtime_seconds": 72.1
+}
