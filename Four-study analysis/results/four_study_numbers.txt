@@ -1,0 +1,145 @@
+binary responses, all five studies 23544 four studies 19008
+all five studies: 329 of 9674 pairs, 17 of 18 cells
+four studies: 255 of 8172 pairs = 3.1%, 15 of 16 cells
+                                   sum  size
+study model              modality           
+1A    Gemini             audio       7    84
+      Nemotron           audio       5    83
+1B    Gemini             audio       2    84
+      Nemotron           audio       5    77
+2A    GPT-4o / gpt-audio audio       1   593
+                         text        0   750
+      Gemini             audio       3   662
+                         text       41   749
+      Nemotron           audio       1   521
+                         text       11   749
+2B    GPT-4o / gpt-audio audio      13    78
+                         text        2   750
+      Gemini             audio      41   750
+                         text       70   749
+      Nemotron           audio      36   744
+                         text       17   749
+study              model          q   n  rate   lo   hi
+   1A             Gemini q1_over_13  84   3.6  0.0  8.3
+   1A             Gemini q2_over_18  84   9.5  2.4 17.9
+   1A           Nemotron q1_over_13  84  23.8 14.3 34.5
+   1A           Nemotron q2_over_18  83  12.0  3.6 23.2
+   1B             Gemini q1_over_13  84   9.5  1.2 20.2
+   1B             Gemini q2_over_18  84   4.8  1.2  9.5
+   1B           Nemotron q1_over_13  81  39.5 26.2 53.8
+   1B           Nemotron q2_over_18  80  22.5 11.1 35.4
+   2A GPT-4o / gpt-audio q1_over_13 673   2.5  1.0  4.4
+   2A GPT-4o / gpt-audio q2_over_18 600   0.2  0.0  0.5
+   2A             Gemini q1_over_13 663  11.6  8.6 14.9
+   2A             Gemini q2_over_18 662   1.5  0.5  2.7
+   2A           Nemotron q1_over_13 523   5.0  3.1  7.2
+   2A           Nemotron q2_over_18 523   0.8  0.0  1.7
+   2B GPT-4o / gpt-audio q1_over_13 259  42.5 35.5 49.8
+   2B GPT-4o / gpt-audio q2_over_18 115  40.0 29.2 51.5
+   2B             Gemini q1_over_13 750  15.5 12.4 18.8
+   2B             Gemini q2_over_18 750  10.9  8.1 13.9
+   2B           Nemotron q1_over_13 748  29.7 25.3 34.1
+   2B           Nemotron q2_over_18 746  16.0 12.6 19.6
+{'o13_cells': 10, 'o13_meet': 3, 'o13_over3x': 5, 'o18_exceed': 8, 'o13_child_maj_exceed': 7, 'o18_child_maj_exceed': 6}
+range over 13 audio 2.5 42.5
+code                                          error   no  refusal  unclear  yes
+study model              modality question                                     
+1A    GPT-4o / gpt-audio audio    q1_over_13      0    0       84        0    0
+                                  q2_over_18      0    0       84        0    0
+      Gemini             audio    q1_over_13      0   81        0        0    3
+                                  q2_over_18      0   76        0        0    8
+      Nemotron           audio    q1_over_13      0   64        0        0   20
+                                  q2_over_18      1   73        0        0   10
+1B    GPT-4o / gpt-audio audio    q1_over_13      0    0       84        0    0
+                                  q2_over_18      0    0       84        0    0
+      Gemini             audio    q1_over_13      0   76        0        0    8
+                                  q2_over_18      0   80        0        0    4
+      Nemotron           audio    q1_over_13      3   49        0        0   32
+                                  q2_over_18      4   62        0        0   18
+2A    GPT-4o / gpt-audio audio    q1_over_13     69  656        6        2   17
+                                  q2_over_18     95  599       54        1    1
+                         text     q1_over_13      0  362        0        0  388
+                                  q2_over_18      0  692        0        0   58
+      Gemini             audio    q1_over_13     87  586        0        0   77
+                                  q2_over_18     88  652        0        0   10
+                         text     q1_over_13      1  362        0        0  387
+                                  q2_over_18      0  527        0        0  223
+      Nemotron           audio    q1_over_13    227  497        0        0   26
+                                  q2_over_18    227  519        0        0    4
+                         text     q1_over_13      0  737        0        1   12
+                                  q2_over_18      0  739        0        0   11
+2B    GPT-4o / gpt-audio audio    q1_over_13    284  149      166       41  110
+                                  q2_over_18    448   69      185        2   46
+                         text     q1_over_13      0  660        0        0   90
+                                  q2_over_18      0  740        0        0   10
+      Gemini             audio    q1_over_13      0  634        0        0  116
+                                  q2_over_18      0  668        0        0   82
+                         text     q1_over_13      0  198        0        1  551
+                                  q2_over_18      0  356        0        0  394
+      Nemotron           audio    q1_over_13      2  526        0        0  222
+                                  q2_over_18      4  627        0        0  119
+                         text     q1_over_13      0  741        0        0    9
+                                  q2_over_18      0  732        0        1   17
+
+== Kids VA calibration
+1A Gemini: n=84 children=28 mean=6.79 MAE=1.52 MAE7=1.07 r=0.54 [0.31,0.80] perm p=0.0037 slope=0.73 >13=1.2% >=13=1.2% child-mean span 3.3-13.3
+1A Nemotron: n=84 children=28 mean=5.99 MAE=1.61 MAE7=1.07 r=0.52 [0.22,0.76] perm p=0.0046 slope=0.38 >13=0.0% >=13=0.0% child-mean span 4.0-9.3
+1B Gemini: n=84 children=28 mean=6.95 MAE=1.50 MAE7=1.07 r=0.57 [0.32,0.79] perm p=0.0017 slope=0.75 >13=0.0% >=13=0.0% child-mean span 3.0-11.3
+1B Nemotron: n=79 children=27 mean=10.05 MAE=3.59 MAE7=1.05 r=0.15 [-0.11,0.43] perm p=0.4607 slope=0.52 >13=8.9% >=13=8.9% child-mean span 4.7-28.0
+
+== Mean estimates, all cells
+                                    mean  size
+study model              modality             
+1A    Gemini             audio      6.79    84
+      Nemotron           audio      5.99    84
+1B    Gemini             audio      6.95    84
+      Nemotron           audio     10.05    79
+2A    GPT-4o / gpt-audio audio      8.87   654
+                         text       9.86   750
+      Gemini             audio      9.19   660
+                         text      11.32   748
+      Nemotron           audio      7.86   524
+                         text      14.89   750
+2B    GPT-4o / gpt-audio audio      9.62   233
+                         text      10.65   742
+      Gemini             audio      9.03   750
+                         text      16.20   741
+      Nemotron           audio     11.64   747
+                         text      22.37   744
+
+== Modality tests
+2A Gemini: n=220 mean diff=-2.16 t(219)=-8.65 p=1.13e-15 d=-0.58
+2A GPT-4o / gpt-audio: n=221 mean diff=-0.97 t(220)=-7.86 p=1.67e-13 d=-0.53
+2A Nemotron: n=175 mean diff=-6.98 t(174)=-14.47 p=1.17e-31 d=-1.09
+2B Gemini: n=248 mean diff=-7.12 t(247)=-12.99 p=9.2e-30 d=-0.83
+2B GPT-4o / gpt-audio: n=90 mean diff=-0.30 t(89)=-0.47 p=0.642 d=-0.05
+2B Nemotron: n=250 mean diff=-10.81 t(249)=-12.29 p=1.89e-27 d=-0.78
+
+== Text rates
+study              model modality question  attempts  valid_n  excluded  rate_valid_only  rate_fail_safe  rate_fail_open
+   2A GPT-4o / gpt-audio     text  over 13       750      750         0             51.7            51.7            51.7
+   2A             Gemini     text  over 13       750      749         1             51.7            51.6            51.7
+   2A           Nemotron     text  over 13       750      749         1              1.6             1.6             1.7
+   2B GPT-4o / gpt-audio     text  over 13       750      750         0             12.0            12.0            12.0
+   2B             Gemini     text  over 13       750      749         1             73.6            73.5            73.6
+   2B           Nemotron     text  over 13       750      750         0              1.2             1.2             1.2
+   2A GPT-4o / gpt-audio     text  over 18       750      750         0              7.7             7.7             7.7
+   2A             Gemini     text  over 18       750      750         0             29.7            29.7            29.7
+   2A           Nemotron     text  over 18       750      750         0              1.5             1.5             1.5
+   2B GPT-4o / gpt-audio     text  over 18       750      750         0              1.3             1.3             1.3
+   2B             Gemini     text  over 18       750      750         0             52.5            52.5            52.5
+   2B           Nemotron     text  over 18       750      749         1              2.3             2.3             2.4
+
+== First phase
+gemini q1_over_13 n 84 refused by outcome 29.8 refused by refusal_check 34.5
+gemini q2_over_18 n 84 refused by outcome 33.3 refused by refusal_check 39.3
+gemini q3_age n 84 refused by outcome 0.0 refused by refusal_check 16.7
+gpt4o q1_over_13 n 84 refused by outcome 96.4 refused by refusal_check 94.0
+gpt4o q2_over_18 n 84 refused by outcome 96.4 refused by refusal_check 96.4
+gpt4o q3_age n 84 refused by outcome 0.0 refused by refusal_check 81.0
+nemotron q1_over_13 n 84 refused by outcome 0.0 refused by refusal_check 0.0
+nemotron q2_over_18 n 84 refused by outcome 0.0 refused by refusal_check 0.0
+nemotron q3_age n 84 refused by outcome 0.0 refused by refusal_check 0.0
+corrupted Gemini: valid 70 of 84 mean 36.8 MAE 29.4 true mean 7.43
+1A gpt-audio q3 attempts 84 non-refusal 34.5 with an age 0
+1B gpt-audio q3 attempts 84 non-refusal 25.0 with an age 0

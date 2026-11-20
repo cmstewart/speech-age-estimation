@@ -1,0 +1,205 @@
+{
+ "binary_responses_4": 19008,
+ "contradictions": {
+  "pairs": 8172,
+  "bad": 255,
+  "pct": 3.1,
+  "cells_with": 15,
+  "cells": 16
+ },
+ "o13_cells": 10,
+ "o13_meet": 3,
+ "o13_over3x": 5,
+ "o18_exceed": 8,
+ "o13_child_maj_exceed": 7,
+ "o18_child_maj_exceed": 6,
+ "kidsva_mean_age": 7.43,
+ "cal_1A_Gemini": {
+  "n": 84,
+  "mean": 6.8,
+  "mae": 1.5,
+  "mae7": 1.1,
+  "r": 0.54,
+  "lo": 0.31,
+  "hi": 0.8,
+  "p": 0.0037,
+  "slope": 0.73,
+  "above13": 1.2,
+  "ge13": 1.2,
+  "span": [
+   3.3,
+   13.3
+  ]
+ },
+ "cal_1A_Nemotron": {
+  "n": 84,
+  "mean": 6.0,
+  "mae": 1.6,
+  "mae7": 1.1,
+  "r": 0.52,
+  "lo": 0.22,
+  "hi": 0.76,
+  "p": 0.0046,
+  "slope": 0.38,
+  "above13": 0.0,
+  "ge13": 0.0,
+  "span": [
+   4.0,
+   9.3
+  ]
+ },
+ "cal_1B_Gemini": {
+  "n": 84,
+  "mean": 7.0,
+  "mae": 1.5,
+  "mae7": 1.1,
+  "r": 0.57,
+  "lo": 0.32,
+  "hi": 0.79,
+  "p": 0.0017,
+  "slope": 0.75,
+  "above13": 0.0,
+  "ge13": 0.0,
+  "span": [
+   3.0,
+   11.3
+  ]
+ },
+ "cal_1B_Nemotron": {
+  "n": 79,
+  "mean": 10.1,
+  "mae": 3.6,
+  "mae7": 1.1,
+  "r": 0.15,
+  "lo": -0.11,
+  "hi": 0.43,
+  "p": 0.4607,
+  "slope": 0.52,
+  "above13": 8.9,
+  "ge13": 8.9,
+  "span": [
+   4.7,
+   28.0
+  ]
+ },
+ "means": {
+  "1A|Gemini|audio": [
+   6.8,
+   84
+  ],
+  "1A|Nemotron|audio": [
+   6.0,
+   84
+  ],
+  "1B|Gemini|audio": [
+   7.0,
+   84
+  ],
+  "1B|Nemotron|audio": [
+   10.0,
+   79
+  ],
+  "2A|GPT-4o / gpt-audio|audio": [
+   8.9,
+   654
+  ],
+  "2A|GPT-4o / gpt-audio|text": [
+   9.9,
+   750
+  ],
+  "2A|Gemini|audio": [
+   9.2,
+   660
+  ],
+  "2A|Gemini|text": [
+   11.3,
+   748
+  ],
+  "2A|Nemotron|audio": [
+   7.9,
+   524
+  ],
+  "2A|Nemotron|text": [
+   14.9,
+   750
+  ],
+  "2B|GPT-4o / gpt-audio|audio": [
+   9.6,
+   233
+  ],
+  "2B|GPT-4o / gpt-audio|text": [
+   10.6,
+   742
+  ],
+  "2B|Gemini|audio": [
+   9.0,
+   750
+  ],
+  "2B|Gemini|text": [
+   16.2,
+   741
+  ],
+  "2B|Nemotron|audio": [
+   11.6,
+   747
+  ],
+  "2B|Nemotron|text": [
+   22.4,
+   744
+  ]
+ },
+ "mod_2A_Gemini": {
+  "n": 220,
+  "diff": -2.2,
+  "t": -8.65,
+  "df": 219,
+  "p": 1.126457940159413e-15,
+  "d": -0.58
+ },
+ "mod_2A_GPT-4o / gpt-audio": {
+  "n": 221,
+  "diff": -1.0,
+  "t": -7.86,
+  "df": 220,
+  "p": 1.6749609436616144e-13,
+  "d": -0.53
+ },
+ "mod_2A_Nemotron": {
+  "n": 175,
+  "diff": -7.0,
+  "t": -14.47,
+  "df": 174,
+  "p": 1.168308747006697e-31,
+  "d": -1.09
+ },
+ "mod_2B_Gemini": {
+  "n": 248,
+  "diff": -7.1,
+  "t": -12.99,
+  "df": 247,
+  "p": 9.201914775180961e-30,
+  "d": -0.83
+ },
+ "mod_2B_GPT-4o / gpt-audio": {
+  "n": 90,
+  "diff": -0.3,
+  "t": -0.47,
+  "df": 89,
+  "p": 0.6417712696286629,
+  "d": -0.05
+ },
+ "mod_2B_Nemotron": {
+  "n": 250,
+  "diff": -10.8,
+  "t": -12.29,
+  "df": 249,
+  "p": 1.887827997635988e-27,
+  "d": -0.78
+ },
+ "corrupted": {
+  "valid": 70,
+  "n": 84,
+  "mean": 36.8,
+  "mae": 29.4
+ }
+}

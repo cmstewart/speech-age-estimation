@@ -43,6 +43,11 @@ the correlation between estimated and true age.
 A constant prediction of 7 years gives a mean absolute error of 1.1. gpt-audio
 produced no numeric estimates and has no rows.
 
+The model also returns a class label for each clip. `class_label_rate.py`
+counts the clips whose label is not child and writes
+`results/baseline_class_label.csv`. The model gave 15 of the 56 clips the female
+label in place of the child label. That is 26.8%.
+
 ## Files
 
 | File | Contents |
