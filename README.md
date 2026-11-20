@@ -123,6 +123,7 @@ assurance system. Section 9 of the paper gives the complete list.
 | `Study 2A - MyST 30-Second Speech (google-genai 2.0.0)` | Student selection script, stimulus builder, collection script, analysis notebook, coded outcomes, parsed estimates, figures |
 | `Study 2B - MyST 6-Second Speech (google-genai 2.0.0)` | Collection script, GPT-4o retry script, analysis notebook, coded outcomes, parsed estimates, figures |
 | `Dedicated speech-age baseline` | The baseline model’s per-clip estimates on the Kids VA clips of Studies 1A and 1B and the comparison with the language models’ numeric estimates |
+| `Four-study analysis` | The analysis restricted to Studies 1A, 1B, 2A and 2B, with its scripts, figures and outputs |
 | `Gating rule and refusal sensitivity` | The script that reproduces every threshold table in the paper, its output CSVs, and the table rows as LaTeX |
 | `Binary question analysis` | An earlier consistency check between threshold answers and numeric estimates, with its figures |
 | `First collection phase (superseded, google-genai 0.4.0)` | Runs under the defective client library. They are kept as evidence of the defect and as the source of the GPT-4o Audio Preview refusal rates on Kids VA |
