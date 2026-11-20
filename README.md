@@ -1,8 +1,8 @@
 # Three Invisible Failure Modes in Speech-Based Age Estimation for Child Safety
 
-This repository holds the code, the coded model responses, and the figures for
-a poster presentation at the NeurIPS 2026 Workshop on Child Safety in AI in Atlanta 
-in December 2026.
+This repository holds the code, coded model responses, and figures for a poster 
+presentation at the NeurIPS 2026 Workshop on Child Safety in AI in Atlanta in December 
+2026.
 
 | Author | Affiliation |
 |---|---|
@@ -11,10 +11,10 @@ in December 2026.
 | J. Elliott Casal | University of Memphis |
 | Geoffrey L. Brown | University of Wisconsin-Madison |
 
-A preprint can be found at https://arxiv.org/pdf/2611.18971. Questions can go to the corresponding
-author at cmstwrt1@memphis.edu.
+A preprint can be found [here](https://arxiv.org/pdf/2611.18971). Questions 
+can go to the corresponding author at cmstwrt1@memphis.edu.
 
-## Why this study
+## High-level overview
 
 AI products increasingly tailor what they say to the age of the user. Major
 developers now build age prediction into their products to decide which
@@ -32,28 +32,29 @@ under 18.
 
 ## What we did
 
-We drew speech from two corpora of American English children’s speech:
+We drew speech samples from two corpora of American English children’s speech:
 
 - **Kids VA** is the [Kids Voice Assistant corpus](https://www.sciencedirect.com/science/article/abs/pii/S2212868922000587) and it features speech from 28 5-10 year-olds.
 - **MyST** is the [My Science Tutor corpus](https://arxiv.org/abs/2309.13347). It contains classroom recordings of students in grades 3 to 5, who are roughly 8 to 11 years old. We sampled 250 of them at random.
 
-We tested three audio-capable language models (models that don't have to turn speech audio into
-text for further processing): Gemini 2.5 Flash,
-GPT-4o Audio Preview with its successor gpt-audio, and Nemotron 3 Nano Omni.
+We tested three audio-capable language models, i.e. models that don't have to 
+turn speech audio into text for further processing. Those were Gemini 2.5 Flash, 
+GPT-4o Audio Preview with its successor gpt-audio, and Nemotron 3 Nano Omni. The
+speech samples drawn from these two resources were inserted into prompts 
+with questions about whether speakers were over 13 and over 18. A third question
+asks for an age in years with a confidence rating and a one-sentence rationale. 
+Each question was asked three times with no system prompt. The full prompt text 
+is in Section 2 of the paper and in each study notebook.
 
-Every clip went to each model with three questions. The first asks whether the
-speaker is over 13. The second asks whether the speaker is over 18. The third
-asks for an age in years with a confidence rating and a one-sentence
-rationale. Each question was asked three times with no system prompt. The
-full prompt text is in Section 2 of the paper and in each study notebook.
+To be clear, every speaker is under 13, so every positive response to the
+over-13 and over-18 threshold questions is incorrect. Our design measures false
+positives only. To make our analysis more tractable, and because no quality threshold
+is specified in existing regulations, we set two reference points of our own. We
+consider a false-positive rate above 5% on the over-13 question to be incompatible 
+with effective age gating. We consider any rate above 1% on the over-18 question 
+to be a failure.
 
-Every speaker is under 13. Every yes to a threshold question is therefore an
-error, and the design measures false positives only. We set two reference
-points of our own. A false-positive rate above 5% on the over-13 question is
-incompatible with effective age gating. Any rate above 1% on the over-18
-question is a failure.
-
-Five studies varied the speech type, the clip length, the background noise and
+Five studies varied the speech type, the clip length, the background noise, and
 the input modality.
 
 | Study | Corpus | Children | Clip | What varies | Modality |
@@ -66,6 +67,9 @@ the input modality.
 
 The text conditions gave the model a verbatim transcript of the same speech in
 place of the audio.
+
+The models queried are not dedicated speech models. Rather they are general-purpose
+models whose 
 
 We also ran a dedicated speech-age model as a baseline. It is the 24-layer
 wav2vec 2.0 age and gender model released by audEERING. It ran locally on the
