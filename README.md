@@ -46,12 +46,12 @@ asks for an age in years with a confidence rating and a one-sentence rationale.
 Each question was asked three times with no system prompt. The full prompt text 
 is in Section 2 of the paper and in each study notebook.
 
-To be clear, every speaker is under 13, so every positive response to the
-over-13 and over-18 threshold questions is incorrect. Our design measures false
-positives only. To make our analysis more tractable, and because no quality threshold
-is specified in existing regulations, we set two reference points of our own. We
-consider a false-positive rate above 5% on the over-13 question to be incompatible 
-with effective age gating. We consider any rate above 1% on the over-18 question 
+Every speaker is under 13, so every positive response to the over-13 and over-18 
+threshold questions is incorrect. Our design measures false positives only. To 
+make our analysis more tractable, and because no quality threshold is specified 
+in existing regulations, we set two reference points of our own. We consider a 
+false-positive rate above 5% on the over-13 question to be incompatible with 
+effective age gating. We consider any rate above 1% on the over-18 question 
 to be a failure.
 
 Five studies varied the speech type, the clip length, the background noise, and
@@ -68,33 +68,32 @@ the input modality.
 The text conditions gave the model a verbatim transcript of the same speech in
 place of the audio.
 
-The models queried are not dedicated speech models. Rather they are general-purpose
-models whose 
-
-We also ran a dedicated speech-age model as a baseline. It is the 24-layer
-wav2vec 2.0 age and gender model released by audEERING. It ran locally on the
-56 Kids VA clips of Studies 1A and 1B.
+The models queried are not dedicated speech models. Rather they are general-purpose models 
+that are increasingly being adopted in a wide variety of child-facing AI deployments. To get
+a sense for how the generalist models compare with a dedicated speech-age model on age
+prediction for children, we presented the 56 Kids VA clips of Studies 1A and 1B to the 24-layer
+wav2vec 2.0 age and gender model released by audEERING.
 
 ## What we found
 
-The models hear some age signal and not enough of it.
+At a very high level, there is some usable age signal in the clips, but not enough.
 
 - Models classified children as over 13 on 2.5% to 42.5% of audio responses.
 - Only 3 of 12 model and condition combinations met the 5% reference point on the over-13 question.
-- Every model that answered placed some 5 to 11 year olds over 18. Ten of 12 combinations exceeded the 1% reference point on that question.
-- Retries make things worse. Gemini’s over-13 rate under noise was 6.1% per response, yet 67.9% of children were misclassified on at least one of their 27 queries.
-- Audio helps. From transcripts, Gemini and GPT-4o each placed more than half of the MyST children over 13. From the audio of the same speech the rates were 11.6% and 2.5%.
-- The dedicated speech-age model did worse than the language models. It placed 42.9% of scripted clips and 64.3% of spontaneous clips at 13 or older.
+- Every model that answered placed some 5 to 11 year olds over 18. Ten of 12 model ~ study combinations exceeded the 1% reference point on the over-18 question.
+- The models' responses are inconsistent. Gemini’s over-13 rate under noise was 6.1% per response, yet 67.9% of children were misclassified on at least one of their 27 queries.
+- There is more signal in audio than in transcripts. From transcripts, Gemini and GPT-4o each placed more than half of the MyST children over 13. From the audio of the same speech the rates were 11.6% and 2.5%, respectively.
+- The dedicated speech-age model did worse than the audio-capable large language models. It placed 42.9% of scripted clips and 64.3% of spontaneous clips at 13 or older.
 
 ## The three failure modes
 
-While measuring those rates we hit three failures. None produced a warning, a
+While measuring those rates, we hit three failures. None produced a warning, a
 status code or a change in output format. Each would have passed standard
 monitoring.
 
-1. **The pipeline corrupted the input.** Version 0.4.0 of the google-genai client library encoded inline audio in base64 twice. Gemini received an unreadable string in place of each recording and answered anyway. Its mean age estimate for children with a true mean age of 7.4 was 36.8 years. A capture of the outgoing request confirmed the defect. Version 2.0.0 does not have it.
+1. **The pipeline corrupted the input.** Version 0.4.0 of the google-genai client library encoded inline audio in base64 twice. Gemini received an unreadable string of characters in place of each recording, but it answered anyway. Its mean age estimate for children with a true mean age of 7.4 was 36.8 years. A capture of the outgoing request confirmed the defect. We subsequently upgraded the library to version 2.0.0, at which point this behavior vanished.
 2. **The model changed underneath the tool.** OpenAI retired GPT-4o Audio Preview in May 2026 and replaced it with gpt-audio. On identical Kids VA clips, gpt-audio refused both threshold questions on all 924 attempts at each. It never produced an age.
-3. **The model’s answers disagreed with each other.** A speaker over 18 is necessarily over 13. Of 8,340 paired answers, 264 said no to over 13 and yes to over 18 for the same clip. Nemotron also answered that 39.5% of spontaneous Kids VA clips came from speakers over 13 while its own numeric estimates put only 8.9% of them there.
+3. **The model’s answers disagreed with each other.** A speaker over 18 is necessarily over 13. Of 8,340 paired answers, 264 indicated that speakers were both under 13 and over 18 *for the same speech sample*. Nemotron also answered that 39.5% of spontaneous Kids VA clips came from speakers over 13, even though its own numeric estimates put only 8.9% of them there.
 
 ## What we recommend
 
