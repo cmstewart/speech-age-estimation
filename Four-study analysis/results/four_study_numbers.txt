@@ -46,8 +46,9 @@ study              model          q   n  rate   lo   hi
    2B             Gemini q2_over_18 750  10.9  8.1 13.9
    2B           Nemotron q1_over_13 748  29.7 25.3 34.1
    2B           Nemotron q2_over_18 746  16.0 12.6 19.6
-{'o13_cells': 12, 'o13_meet': 5, 'o13_over3x': 5, 'o18_exceed': 8, 'o13_child_maj_exceed': 7, 'o18_child_maj_exceed': 6}
-range over 13 audio 0.0 42.5
+reference-point counts and the over-13 range exclude 4 text-first gpt-audio cells of Studies 1A and 1B, valid n [9, 10, 12, 19]. Their rows stay in the table above.
+{'o13_cells': 10, 'o13_meet': 3, 'o13_over3x': 5, 'o18_exceed': 8, 'o13_child_maj_exceed': 7, 'o18_child_maj_exceed': 6}
+range over 13 audio 2.5 42.5
 code                                          error   no  refusal  unclear  yes
 study model              modality question                                     
 1A    GPT-4o / gpt-audio audio    q1_over_13      0   19       64        1    0

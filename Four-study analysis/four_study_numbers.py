@@ -71,17 +71,24 @@ for late in (False, True):
 ci = pd.DataFrame(rows).sort_values(["study", "model", "q"]).reset_index(drop=True)
 print(ci.to_string(index=False))
 
-# Reference-point counts.
-o13 = ci[ci.q == "q1_over_13"]
-o18 = ci[ci.q == "q2_over_18"]
+# Reference-point counts. The text-first gpt-audio cells of Studies 1A and 1B
+# have 9 to 19 valid answers each. They are too small to count for or against a
+# reference point, so they stay out of every count and range here. Their
+# per-cell rows are kept in the table above and in per_child_rates.csv.
+counted = ci[[not gr.is_rerun_cell(s, m) for s, m in zip(ci.study, ci.model)]]
+o13 = counted[counted.q == "q1_over_13"]
+o18 = counted[counted.q == "q2_over_18"]
 OUT["o13_cells"] = len(o13)
 OUT["o13_meet"] = int((o13.rate <= 5).sum())
 OUT["o13_over3x"] = int((o13.rate > 15).sum())
 OUT["o18_exceed"] = int((o18.rate > 1).sum())
 pc = gr.per_child_rates(b)
-pca = pc[pc.modality == "audio"]
+pca = pc[(pc.modality == "audio") & np.array([not gr.is_rerun_cell(s, m) for s, m in zip(pc.study, pc.model)])]
 OUT["o13_child_maj_exceed"] = int((pca[pca.question == "over 13"].children_majority > 5).sum())
 OUT["o18_child_maj_exceed"] = int((pca[pca.question == "over 18"].children_majority > 1).sum())
+excluded = ci[[gr.is_rerun_cell(s, m) for s, m in zip(ci.study, ci.model)]]
+print(f"reference-point counts and the over-13 range exclude {len(excluded)} text-first gpt-audio cells "
+      f"of Studies 1A and 1B, valid n {sorted(excluded.n.tolist())}. Their rows stay in the table above.")
 print({k: OUT[k] for k in OUT if k.startswith("o1")})
 print("range over 13 audio", o13.rate.min(), o13.rate.max())
 
