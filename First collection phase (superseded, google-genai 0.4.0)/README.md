@@ -27,6 +27,12 @@ The coded GPT-4o Audio Preview responses in `study1a_raw_results.csv` and
 paper's Discussion under Failure 2. Preview was retired before the second
 collection phase, so those responses cannot be regenerated.
 
+Those Preview calls placed the audio part before the text part. A control on
+2026-11-22 showed that gpt-audio ignores the audio in that order. Preview's
+use of the audio in these calls cannot be confirmed. Its few Kids VA age
+estimates do not track the children's true ages. The control is described in
+`../gpt-audio control and rerun (2026-11-22)`.
+
 ## Files
 
 - `study1a_raw_results.csv` — Kids VA scripted. Source for the corrupted-pipeline

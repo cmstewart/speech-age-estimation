@@ -35,13 +35,18 @@ the correlation between estimated and true age.
 |---|---|---|---|---|---|---|
 | 1A | Gemini | 84 | 1.2 | 1.2 | 1.5 | .54 |
 | 1A | Nemotron | 84 | 0.0 | 0.0 | 1.6 | .52 |
+| 1A | gpt-audio, text first | 57 | 0.0 | 0.0 | 1.0 | .52 |
 | 1A | wav2vec2 baseline | 28 | 42.9 | 10.7 | 5.2 | .46 |
 | 1B | Gemini | 84 | 0.0 | 0.0 | 1.5 | .57 |
 | 1B | Nemotron | 79 | 8.9 | 6.3 | 3.6 | .15 |
+| 1B | gpt-audio, text first | 56 | 5.4 | 1.8 | 1.6 | .62 |
 | 1B | wav2vec2 baseline | 28 | 64.3 | 35.7 | 8.9 | .33 |
 
-A constant prediction of 7 years gives a mean absolute error of 1.1. gpt-audio
-produced no numeric estimates and has no rows.
+A constant prediction of 7 years gives a mean absolute error of 1.1. The
+gpt-audio rows come from the text-first rerun in
+`gpt-audio control and rerun (2026-11-22)`. gpt-audio gave estimates for 21 children
+in Study 1A and 19 in Study 1B. All of its Study 1B estimates at or above 13
+came from one 10 year old.
 
 The model also returns a class label for each clip. `class_label_rate.py`
 counts the clips whose label is not child and writes

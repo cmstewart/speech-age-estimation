@@ -12,7 +12,7 @@ This study ran on the pinned google-genai 2.0.0 setup, so its Gemini estimates a
 - GPT-4o Audio Preview, via the OpenAI SDK
 - Nemotron 3 Nano Omni, via fal.ai for audio and DeepInfra for text
 
-GPT-4o Audio Preview has since been retired by OpenAI. Its successor gpt-audio refuses age estimation on nearly every clip, so the OpenAI results here reflect a model that is no longer available.
+GPT-4o Audio Preview has since been retired by OpenAI. Its successor gpt-audio was not run on MyST. On Kids VA it refused most threshold questions but answered some once the text part of each request came before the audio. The OpenAI results here reflect a model that is no longer available.
 
 ## What we found
 

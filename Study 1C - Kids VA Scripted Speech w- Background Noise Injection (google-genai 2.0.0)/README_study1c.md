@@ -20,7 +20,7 @@ Gemini estimates ages accurately and holds up under noise. Its estimates stayed 
 
 Nemotron is also robust to noise, with no condition differing significantly from its clean baseline. Its estimates drifted slightly downward under noise rather than upward. It carries more scatter than Gemini and labels children as over 13 somewhat more often, so it is the noisier of the two even though noise itself does not break it.
 
-gpt-audio refused between 90 and 96 percent of calls, and the refusal rate was flat across every condition. Its refusal is a fixed policy rather than a reaction to the audio, so it is reported separately and excluded from the age analysis.
+gpt-audio refused between 90 and 96 percent of calls. Its refusal rate was flat across every condition. These requests placed the audio part before the text part. A control on 2026-11-22 showed that gpt-audio ignores the audio in that order. The model did not use the audio, so the flat rate says nothing about noise. Study 1C was not rerun. gpt-audio is excluded from every rate for this study. The control is in `../gpt-audio control and rerun (2026-11-22)`.
 
 The practical takeaway is reassuring for deployment. The models that attempt the task estimate children's ages accurately, and that accuracy survives the kind of background a classroom would add.
 

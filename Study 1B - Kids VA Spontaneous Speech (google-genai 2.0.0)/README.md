@@ -13,6 +13,7 @@ The requirements file is at `../Study 1A - Kids VA Scripted Speech (google-genai
 - `study1b_age_estimation_pinned.ipynb` is the main notebook. It runs all three models and produces the figures and tables. Its saved outputs are cleared because they quoted the children.
 - The `study1b_pinned_*.csv` files hold a coded outcome for each response and the parsed age estimates. The response text is not included.
 - The `study1b_pinned_*.png` files hold the figures.
+- `Results/study1b_pinned_gpt_audio_refusal.png` shows the gpt-audio refusal rate by age from the first run. That run placed the audio before the text, and gpt-audio ignored the audio. The figure records that failure. It does not show how gpt-audio responds to children's speech it can hear.
 - `manifest.json` lists the clips with their ages and durations.
 - The audio stimuli and their transcripts are not included. The corpus can be requested from its authors.
 
@@ -24,9 +25,11 @@ Each child was asked whether the speaker is over 13, whether the speaker is over
 
 In this study, Gemini produced valid estimates for all 28 children and refused nothing. Its mean signed error is -0.48 years and its mean absolute error is 1.50 years. The small negative bias is not statistically significant in this sample.
 
-### gpt-audio declines the task
+### gpt-audio ignored the audio in the original request shape
 
-gpt-audio refused about 75 percent of the age questions and produced no usable estimates, so it does not appear in the age analysis. This is in keeping with Study 1A with scripted speech.
+The first run placed the audio part of each request before the text part, as in Study 1A. In that run gpt-audio refused about 75 percent of the age questions and gave no usable estimates. A control on 2026-11-22 showed that gpt-audio ignored the audio in that order. The rows from the first run stay in `Results` as the record of the failure.
+
+The study was rerun for gpt-audio with the text part first. Nothing else changed. In the rerun gpt-audio refused 69 of 84 over-13 questions and 72 of 84 over-18 questions. All 12 of its over-13 answers were no. All 9 of its over-18 answers were no. It gave an age estimate on 56 of 84 calls, for 19 of the 28 children. Its mean absolute error is 1.59 years per response. One 10 year old was estimated at 16 to 18 years on all three repeats. Without that child the mean absolute error across the per-child means falls from 1.54 to 1.25 years. Older children were refused more often on the age question. The correlation between age and refusal rate is 0.51. Its 95 percent interval from a bootstrap over speakers runs from 0.17 to 0.78. The coded rerun is in `gpt-audio control and rerun (2026-11-22)`.
 
 ### Nemotron overestimates
 

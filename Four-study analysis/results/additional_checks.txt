@@ -22,8 +22,10 @@ q2_over_18 Nemotron: diff 15.2 points, 95% CI [11.5, 18.9]
 
 == (c) contradictions against independence within cell
 study              model modality  pairs  obs_no13_yes18  expected_indep  yes_both  yes18
+   1A GPT-4o / gpt-audio    audio      7               0             0.0         0      0
    1A             Gemini    audio     84               7             7.7         1      8
    1A           Nemotron    audio     83               5             7.6         5     10
+   1B GPT-4o / gpt-audio    audio      6               0             0.0         0      0
    1B             Gemini    audio     84               2             3.6         2      4
    1B           Nemotron    audio     77               5             9.6        11     16
    2A GPT-4o / gpt-audio    audio    593               1             1.0         0      1

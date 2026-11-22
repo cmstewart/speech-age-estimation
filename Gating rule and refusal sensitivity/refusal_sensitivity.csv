@@ -1,11 +1,10 @@
 study,model,modality,question,attempts,valid_n,excluded,rate_valid_only,rate_fail_safe,rate_fail_open
-1A,GPT-4o / gpt-audio,audio,over 13,84,0,84,,0.0,100.0
+1A,GPT-4o / gpt-audio,audio,over 13,84,19,65,0.0,0.0,77.4
 1A,Gemini,audio,over 13,84,84,0,3.6,3.6,3.6
 1A,Nemotron,audio,over 13,84,84,0,23.8,23.8,23.8
-1B,GPT-4o / gpt-audio,audio,over 13,84,0,84,,0.0,100.0
+1B,GPT-4o / gpt-audio,audio,over 13,84,12,72,0.0,0.0,85.7
 1B,Gemini,audio,over 13,84,84,0,9.5,9.5,9.5
 1B,Nemotron,audio,over 13,84,81,3,39.5,38.1,41.7
-1C,GPT-4o / gpt-audio,audio,over 13,756,0,756,,0.0,100.0
 1C,Gemini,audio,over 13,756,751,5,6.1,6.1,6.7
 1C,Nemotron,audio,over 13,756,755,1,17.4,17.3,17.5
 2A,GPT-4o / gpt-audio,audio,over 13,750,673,77,2.5,2.3,12.5
@@ -20,13 +19,12 @@ study,model,modality,question,attempts,valid_n,excluded,rate_valid_only,rate_fai
 2B,Gemini,text,over 13,750,749,1,73.6,73.5,73.6
 2B,Nemotron,audio,over 13,750,748,2,29.7,29.6,29.9
 2B,Nemotron,text,over 13,750,750,0,1.2,1.2,1.2
-1A,GPT-4o / gpt-audio,audio,over 18,84,0,84,,0.0,100.0
+1A,GPT-4o / gpt-audio,audio,over 18,84,10,74,0.0,0.0,88.1
 1A,Gemini,audio,over 18,84,84,0,9.5,9.5,9.5
 1A,Nemotron,audio,over 18,84,83,1,12.0,11.9,13.1
-1B,GPT-4o / gpt-audio,audio,over 18,84,0,84,,0.0,100.0
+1B,GPT-4o / gpt-audio,audio,over 18,84,9,75,0.0,0.0,89.3
 1B,Gemini,audio,over 18,84,84,0,4.8,4.8,4.8
 1B,Nemotron,audio,over 18,84,80,4,22.5,21.4,26.2
-1C,GPT-4o / gpt-audio,audio,over 18,756,0,756,,0.0,100.0
 1C,Gemini,audio,over 18,756,752,4,5.9,5.8,6.3
 1C,Nemotron,audio,over 18,756,755,1,9.3,9.3,9.4
 2A,GPT-4o / gpt-audio,audio,over 18,750,600,150,0.2,0.1,20.1

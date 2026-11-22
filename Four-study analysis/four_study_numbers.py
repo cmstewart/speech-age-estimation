@@ -1,7 +1,8 @@
 """Recompute the reported numbers on the four studies 1A, 1B, 2A and 2B.
 
 Reuses the coding rule and the Study 2B de-duplication from the
-repository's gating_and_refusals.py. Usage: python3 four_study_numbers.py REPO_ROOT OUT_JSON
+repository's gating_and_refusals.py. That module also swaps in the text-first
+gpt-audio rerun for Studies 1A and 1B. Usage: python3 four_study_numbers.py REPO_ROOT OUT_JSON
 """
 import importlib.util
 import json
@@ -57,14 +58,17 @@ OUT["contradictions"] = dict(pairs=n, bad=k, pct=round(100 * k / n, 1), cells_wi
 # Response-level bootstrap CIs, audio, both questions.
 np.random.seed(20261011)
 rows = []
-for (study, model, modality, q), g in b[b.modality == "audio"].groupby(["study", "model", "modality", "question"]):
-    v = g[g.code.isin(["yes", "no"])]
-    if not len(v):
-        continue
-    lo, hi = gr.boot_ci((v.code == "yes").to_numpy(int), v.child.to_numpy())
-    rows.append(dict(study=study, model=model, q=q, n=len(v), rate=round(100 * (v.code == "yes").mean(), 1),
-                     lo=round(lo, 1), hi=round(hi, 1)))
-ci = pd.DataFrame(rows)
+cells = list(b[b.modality == "audio"].groupby(["study", "model", "modality", "question"]))
+# The text-first gpt-audio cells draw last, so the other cells keep their draws.
+for late in (False, True):
+    for (study, model, modality, q), g in cells:
+        v = g[g.code.isin(["yes", "no"])]
+        if not len(v) or gr.is_rerun_cell(study, model) != late:
+            continue
+        lo, hi = gr.boot_ci((v.code == "yes").to_numpy(int), v.child.to_numpy())
+        rows.append(dict(study=study, model=model, q=q, n=len(v), rate=round(100 * (v.code == "yes").mean(), 1),
+                         lo=round(lo, 1), hi=round(hi, 1)))
+ci = pd.DataFrame(rows).sort_values(["study", "model", "q"]).reset_index(drop=True)
 print(ci.to_string(index=False))
 
 # Reference-point counts.
@@ -165,11 +169,10 @@ print("corrupted Gemini: valid", len(v), "of", len(gq), "mean", round(v.pred_age
 OUT["corrupted"] = dict(valid=len(v), n=len(gq), mean=round(v.pred_age.mean(), 1),
                         mae=round((v.pred_age - v.actual_age).abs().mean(), 1))
 
-# gpt-audio open-age responses on 1A and 1B.
+# gpt-audio open-age responses on 1A and 1B, text-first rerun.
 for study in ["1A", "1B"]:
-    path, idcol, _ = gr.RAW[study]
-    d = pd.read_csv(os.path.join(ROOT, path))
-    g = d[(d.model == "gpt_audio") & (d.question == "q3_age")]
+    d = gr.load_rerun(study)
+    g = d[d.question == "q3_age"]
     nonref = g.refusal_check != "refused"
     print(study, "gpt-audio q3 attempts", len(g), "non-refusal", round(100 * nonref.mean(), 1),
           "with an age", int(g.pred_age.notna().sum()))

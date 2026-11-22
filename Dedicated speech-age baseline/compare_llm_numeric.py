@@ -4,7 +4,8 @@ The baseline gives a numeric age per clip. The comparable language model
 quantity is each model's own numeric age estimate on the same clips,
 thresholded at 13 and 18 in the same way. This script computes those rates
 from the parsed age-estimate files for Studies 1A and 1B and writes one
-table with the baseline rows beside them.
+table with the baseline rows beside them. The gpt-audio rows come from the
+text-first rerun, since the audio-first runs gave no estimates.
 
 Usage
     python compare_llm_numeric.py --repo PATH
@@ -19,6 +20,9 @@ import pandas as pd
 N_BOOT = 10000
 SEED = 20261119
 CONSTANT_AGE = 7.0
+
+RERUN = "gpt-audio control and rerun (2026-11-22)/rerun_coded.csv"
+RERUN_LABEL = "gpt-audio 2025-08-28, text first"
 
 Q3 = {
     "1A": "Study 1A - Kids VA Scripted Speech (google-genai 2.0.0)/Results/study1_q3_parsed.csv",
@@ -70,6 +74,7 @@ def main():
     for study, rel in Q3.items():
         q3 = pd.read_csv(repo / rel)
         q3 = q3.rename(columns={"pred_age": "est", "actual_age": "true"})
+        q3 = q3[q3["model"] != "gpt_audio"]
         for label, g in q3.groupby("model_label"):
             valid = g.dropna(subset=["est"])
             rows.append(row(valid, study, label, rng))
@@ -77,6 +82,11 @@ def main():
     base = base.rename(columns={"est_age": "est", "true_age": "true"})
     for study, g in base.groupby("study"):
         rows.append(row(g, study, "wav2vec2 age baseline", rng))
+    # gpt-audio comes from the text-first rerun. It is drawn last so the other rows keep their draws.
+    rerun = pd.read_csv(repo / RERUN)
+    rerun = rerun[rerun.question == "q3_age"].rename(columns={"pred_age": "est", "actual_age": "true"})
+    for study, g in rerun.groupby("study"):
+        rows.append(row(g.dropna(subset=["est"]), study, RERUN_LABEL, rng))
     table = pd.DataFrame(rows).sort_values(["study", "model"])
     out = repo / "Dedicated speech-age baseline/results/comparison_numeric_threshold.csv"
     table.to_csv(out, index=False)
