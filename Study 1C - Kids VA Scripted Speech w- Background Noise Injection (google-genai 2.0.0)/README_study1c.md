@@ -4,7 +4,7 @@ Real classroom audio is noisy, so a model that estimates a child's age cleanly i
 
 ## Headline finding
 
-Background noise does not meaningfully degrade age estimation for the models that perform the task. Both Gemini 2.5 Flash and Nemotron 3 Nano Omni stayed within about a year of their own clean estimates across all nine conditions, and most conditions were statistically indistinguishable from clean in paired tests. The OpenAI model refused the task on nearly every clip regardless of noise, so it produced no usable estimates.
+Background noise does not meaningfully degrade age estimation for the models that perform the task. Both Gemini 2.5 Flash and Nemotron 3 Nano Omni stayed within about a year of their own clean estimates across all nine conditions, and most conditions were statistically indistinguishable from clean in paired tests. The OpenAI model refused the task on nearly every clip. Its requests placed the audio before the text. The model ignores the audio in that order, so its results here say nothing about noise.
 
 ## How we got here
 

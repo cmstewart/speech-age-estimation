@@ -78,9 +78,9 @@ wav2vec 2.0 age and gender model released by audEERING.
 
 At a very high level, there is some usable age signal in the clips, but not enough.
 
-- Models classified children as over 13 on 2.5% to 42.5% of audio responses.
-- Only 3 of 12 model and condition combinations met the 5% reference point on the over-13 question.
-- Every model that answered placed some 5 to 11 year olds over 18. Ten of 12 model ~ study combinations exceeded the 1% reference point on the over-18 question.
+- Models classified children as over 13 on 0.0% to 42.5% of audio responses. The two 0.0% rates come from gpt-audio on Kids VA. It answered only 19 and 12 of 84 over-13 questions there.
+- Only 5 of 14 model and condition combinations met the 5% reference point on the over-13 question. Two of the five are gpt-audio on Kids VA.
+- Gemini, Nemotron and GPT-4o Audio Preview placed some 5 to 11 year olds over 18 in every study where they answered. gpt-audio placed none over 18 on Kids VA. Ten of 14 model and study combinations exceeded the 1% reference point on the over-18 question.
 - The models' responses are inconsistent. Gemini’s over-13 rate under noise was 6.1% per response, yet 67.9% of children were misclassified on at least one of their 27 queries.
 - There is more signal in audio than in transcripts. From transcripts, Gemini and GPT-4o each placed more than half of the MyST children over 13. From the audio of the same speech the rates were 11.6% and 2.5%, respectively.
 - The dedicated speech-age model did worse than the audio-capable large language models. It placed 42.9% of scripted clips and 64.3% of spontaneous clips at 13 or older.
@@ -102,7 +102,7 @@ The paper draws five practices from these failures:
 - Evaluate the whole pipeline and not only the model.
 - Report library versions, endpoint identifiers and collection dates.
 - Treat a safety validation as perishable, since the provider can replace an endpoint without notice.
-- Ask redundant questions and state how refusals are counted. Pairing the over-13 answer with a numeric estimate cut the audio error rate below 3% in ten of twelve cases. The treatment of refusals alone moved one rate from 14.7% to 80.1%.
+- Ask redundant questions and state how refusals are counted. Pairing the over-13 answer with a numeric estimate cut the audio error rate below 3% in twelve of fourteen cases. The treatment of refusals alone moved one rate from 14.7% to 80.1%.
 - Inspect what an inference platform keeps.
 
 ## Limitations
