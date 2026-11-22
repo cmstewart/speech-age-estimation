@@ -18,6 +18,13 @@ regen_rates.py, so every denominator matches rates_regenerated.csv.
 Every results file in this repository holds a coded outcome for each response
 and not the response text. The codes were produced with the binary coding rule
 in code_binary below, which is kept here as the record of that rule.
+
+gpt-audio on Kids VA. The gpt-audio rows in the Study 1A and 1B folders come
+from requests that placed the audio part before the text part. A control on
+2026-11-22 showed that gpt-audio ignored the audio in that order. Those rows
+stay in the study folders as the record of the failure. Every rate here uses
+the text-first rerun in the folder named by RERUN_DIR in their place. Study 1C
+was not rerun, so gpt-audio on Study 1C is dropped from every rate.
 """
 import os
 import re
@@ -49,6 +56,10 @@ AGES = {
     "2A": (S2A + "study2a_q3_parsed.csv", "student_id"),
     "2B": (S2B + "study2b_q3_parsed.csv", "student_id"),
 }
+RERUN_DIR = "gpt-audio control and rerun (2026-11-22)/"
+RERUN = RERUN_DIR + "rerun_coded.csv"
+RERUN_STUDIES = ("1A", "1B")
+DROP_GPT_AUDIO = ("1C",)
 MODEL_NAME = {"gemini": "Gemini", "gemini_200": "Gemini",
               "gpt4o": "GPT-4o / gpt-audio", "gpt_audio": "GPT-4o / gpt-audio",
               "nemotron": "Nemotron"}
@@ -108,10 +119,32 @@ def dedup_2b(d):
     return pd.concat([d[~mask], dup], ignore_index=True)
 
 
+def load_rerun(study):
+    """Text-first gpt-audio rows for one Kids VA study, coded with the same rules."""
+    r = pd.read_csv(os.path.join(ROOT, RERUN))
+    return r[r.study == study].drop(columns=["study"])
+
+
+def use_rerun(d, study):
+    """Swap the audio-first gpt-audio rows for the text-first rerun, or drop them."""
+    if study in RERUN_STUDIES:
+        keep = d[d.model != "gpt_audio"]
+        return pd.concat([keep, load_rerun(study)[["child", "model", "question", "repeat",
+                                                   "outcome", "pred_age"]]], ignore_index=True)
+    if study in DROP_GPT_AUDIO:
+        return d[d.model != "gpt_audio"].copy()
+    return d
+
+
+def is_rerun_cell(study, model):
+    return study in RERUN_STUDIES and model == MODEL_NAME["gpt_audio"]
+
+
 def load_binary():
     frames = []
     for study, (path, idcol, textcol) in RAW.items():
         d = pd.read_csv(os.path.join(ROOT, path))
+        d = use_rerun(d, study)
         d = add_keys(d, study, idcol)
         d = d[d.question.isin(["q1_over_13", "q2_over_18"])].copy()
         coder = code_binary if textcol == "response" else code_outcome
@@ -124,6 +157,7 @@ def load_ages():
     frames = []
     for study, (path, idcol) in AGES.items():
         d = pd.read_csv(os.path.join(ROOT, path))
+        d = use_rerun(d, study)
         d = add_keys(d, study, idcol)
         d["question"] = "q3_age"
         frames.append(d[["study", "child", "model", "modality", "acoustic", "question", "repeat", "pred_age"]])
@@ -176,10 +210,18 @@ def gating_rule(b, a):
     pairs["and_adult"] = pairs.q1_yes & pairs.q3_adult
     pairs["or_adult"] = pairs.q1_yes | pairs.q3_adult
     rows = []
-    for (study, model, modality), g in pairs.groupby(["study", "model", "modality"]):
+    groups = list(pairs.groupby(["study", "model", "modality"]))
+    # Rerun cells draw their intervals after every other cell, so adding them
+    # leaves the random draws of the unchanged cells as they were.
+    cis = {}
+    for late in (False, True):
+        for (study, model, modality), g in groups:
+            if is_rerun_cell(study, model) == late:
+                cis[(study, model, modality)] = boot_ci(g.and_adult.to_numpy(int), g.child.to_numpy())
+    for (study, model, modality), g in groups:
         attempts = int(((q1_all.study == study) & (q1_all.model == model) & (q1_all.modality == modality)).sum())
         per_child = g.groupby("child").and_adult.agg(["any", "mean"])
-        lo, hi = boot_ci(g.and_adult.to_numpy(int), g.child.to_numpy())
+        lo, hi = cis[(study, model, modality)]
         rows.append(dict(
             study=study, model=model, modality=modality,
             attempts=attempts, pairs_with_both=len(g), children=g.child.nunique(),
@@ -214,6 +256,87 @@ def per_child_rates(b):
     return pd.DataFrame(rows).sort_values(["question", "study", "model", "modality"])
 
 
+SHORT = {"Gemini": "Gemini", "GPT-4o / gpt-audio": "GPT-4o", "Nemotron": "Nemotron"}
+TABLE_STUDIES = ["1A", "1B", "1C", "2A", "2B"]
+TABLE_MODELS = ["Gemini", "GPT-4o / gpt-audio", "Nemotron"]
+TABLE_QS = [("q1_over_13", "over 13"), ("q2_over_18", "over 18")]
+
+
+def f1(x):
+    return "--" if x != x else f"{x:.1f}"
+
+
+def table_rows(b, rs, gt, pc):
+    """Every table row in the paper in LaTeX form.
+
+    The threshold intervals are drawn from a fresh seed in pandas groupby order,
+    with the rerun cells drawn last. The gating intervals are the ones in
+    gating_rule.csv. A cell with no
+    attempts is left out. That removes gpt-audio on Study 1C.
+    """
+    lines = ["%% threshold tables, audio, with CI and both per-child rules"]
+    np.random.seed(20261011)
+    ci = {}
+    cells = list(b[b.modality == "audio"].groupby(["question", "study", "model"]))
+    for late in (False, True):
+        for (q, s, m), g in cells:
+            v = g[g.code.isin(["yes", "no"])]
+            if len(v) and is_rerun_cell(s, m) == late:
+                ci[(q, s, m)] = boot_ci((v.code == "yes").to_numpy(int), v.child.to_numpy())
+    for q, qlab in TABLE_QS:
+        lines.append(f"%% {qlab}")
+        for s in TABLE_STUDIES:
+            for m in TABLE_MODELS:
+                g = b[(b.study == s) & (b.model == m) & (b.modality == "audio") & (b.question == q)]
+                if not len(g):
+                    continue
+                v = g[g.code.isin(["yes", "no"])]
+                if not len(v):
+                    lines.append(f"{s} & {SHORT[m]} & refused all & & 0 & & & \\\\")
+                    continue
+                lo, hi = ci[(q, s, m)]
+                row = pc[(pc.study == s) & (pc.model == m) & (pc.modality == "audio") & (pc.question == qlab)].iloc[0]
+                lines.append(f"{s} & {SHORT[m]} & {f1(r1(100 * (v.code == 'yes').mean()))} & "
+                             f"{f1(r1(lo))}--{f1(r1(hi))} & {len(v)} & {v.child.nunique()} & "
+                             f"{f1(row.children_at_least_once)} & {f1(row.children_majority)} \\\\")
+    lines.append("%% refusal sensitivity audio")
+    for q, qlab in TABLE_QS:
+        lines.append(f"%% {qlab}")
+        for s in TABLE_STUDIES:
+            for m in TABLE_MODELS:
+                sel = rs[(rs.study == s) & (rs.model == m) & (rs.modality == "audio") & (rs.question == qlab)]
+                if not len(sel):
+                    continue
+                r = sel.iloc[0]
+                lines.append(f"{s} & {SHORT[m]} & {r.attempts} & {r.excluded} & {f1(r.rate_valid_only)} & "
+                             f"{f1(r.rate_fail_safe)} & {f1(r.rate_fail_open)} \\\\")
+    lines.append("%% gating rule")
+    g2 = gt.assign(_m=gt.model.map(TABLE_MODELS.index)).sort_values(["study", "modality", "_m"], kind="stable")
+    for _, r in g2.iterrows():
+        lines.append(f"{r.study} & {SHORT[r.model]} & {r.modality} & {r.pairs_with_both} & {r.children} & "
+                     f"{f1(r.rate_binary_alone)} & {f1(r.rate_numeric_alone)} & {f1(r.rate_and_rule)} & "
+                     f"{f1(r.and_ci_lo)}--{f1(r.and_ci_hi)} & {f1(r.and_rule_children_at_least_once)} & "
+                     f"{f1(r.and_rule_children_majority)} \\\\")
+    lines.append("%% full H1/H2 all modalities")
+    for q, qlab in TABLE_QS:
+        lines.append(f"%% {qlab}")
+        for s in TABLE_STUDIES:
+            for m in TABLE_MODELS:
+                mods = sorted(b[(b.study == s) & (b.model == m)].modality.unique())
+                groups = [(mo, b[(b.study == s) & (b.model == m) & (b.modality == mo) & (b.question == q)])
+                          for mo in mods]
+                if len(mods) > 1:
+                    groups.append(("pooled", b[(b.study == s) & (b.model == m) & (b.question == q)]))
+                for mo, g in groups:
+                    valid = int(g.code.isin(["yes", "no"]).sum())
+                    yes = int((g.code == "yes").sum())
+                    rate = "n/a" if valid == 0 else f1(r1(100 * yes / valid))
+                    lines.append(f"{s} & {SHORT[m]} & {mo} & {rate} & {valid} & {int((g.code == 'refusal').sum())} & "
+                                 f"{int(g.code.str.startswith('error').sum())} & {int((g.code == 'unclear').sum())} & "
+                                 f"{len(g)} \\\\")
+    return "\n".join(lines) + "\n"
+
+
 def main():
     b = load_binary()
     a = load_ages()
@@ -224,6 +347,8 @@ def main():
     gr.to_csv(os.path.join(OUT, "gating_rule.csv"), index=False)
     pc = per_child_rates(b)
     pc.to_csv(os.path.join(OUT, "per_child_rates.csv"), index=False)
+    with open(os.path.join(OUT, "table_rows.tex"), "w") as f:
+        f.write(table_rows(b, rs, gr, pc))
     pd.set_option("display.width", 250)
     print("\n== refusal sensitivity, audio only\n", rs[rs.modality == "audio"].to_string(index=False))
     print("\n== gating rule\n", gr.to_string(index=False))

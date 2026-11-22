@@ -22,6 +22,7 @@ The throwaway environments live under `demo_envs` and are rebuilt automatically,
 - `study1a_age_estimation_audio_version_demo.ipynb` is the main notebook. It runs all conditions, demonstrates the defect, and produces the figures and tables. Its saved outputs are cleared because they quoted the children.
 - `google_genai regression` holds the worker script and the captured request data behind the defect demonstration, including the wire forensics that prove the double encoding. Responses in the captured output files are replaced with coded outcomes.
 - `Results` holds a coded outcome for each response, the parsed age estimates and the figures. The response text is not included.
+- `Results/study1_gpt_audio_refusal.png` shows the gpt-audio refusal rate by age from the first run. That run placed the audio before the text, and gpt-audio ignored the audio. The figure records that failure. It does not show how gpt-audio responds to children's speech it can hear.
 - `study1_stimuli/manifest.json` lists the clips with their ages and durations. The audio and transcripts are not included.
 
 ## Results
@@ -36,11 +37,13 @@ Section 7 sends the identical request under both SDK versions and reads what eac
 
 Under google-genai 2.0.0 Gemini produced valid age estimates for all 28 children across three repeats. The mean signed error is -0.64 years and the mean absolute error is 1.52 years. The slight negative bias is marginally significant at t = -2.06 and p = 0.049. Accuracy holds across most of the range and weakens only for the oldest children. Ages 9 and 10 are underestimated by roughly 1.5 to 2 years. The downward trend with age is present but is not statistically reliable in this sample at r = -0.23 and p = 0.24. On the binary questions Gemini correctly answered no to over 13 and over 18 for nearly every child.
 
-### gpt-audio declines the task
+### gpt-audio ignored the audio in the original request shape
 
-The earlier study used GPT-4o Audio Preview, which has since been retired. We probed the successor models gpt-audio, gpt-audio-1.5, gpt-audio-2025-08-28, and gpt-audio-mini-2025-10-06 on a small set of clips. Across the whole family the models either refuse age estimation outright or stall by claiming no audio was provided, and the rare genuine estimate is unreliable and nonsensical. None is usable for this task.
+The earlier study used GPT-4o Audio Preview, which has since been retired. Its successor gpt-audio-2025-08-28 is the named condition here. A dated snapshot maps to a fixed model more reliably than a floating alias.
 
-We used the dated snapshot gpt-audio-2025-08-28 as the named condition, since a dated snapshot maps to a fixed model more reliably than a floating alias. In the full run it refused 221 of 252 calls and produced zero usable age estimates, so it does not appear in the age analysis. The earlier age correlated refusal pattern does not reproduce. Younger children were refused at least as often as older ones. The age to refusal correlation is -0.33 and is not statistically significant at p = 0.09. This shift shows how changing provider policy can alter behavior over a short window, which matters for any application that depends on these models in a classroom.
+The first full run placed the audio part of each request before the text part. In that run gpt-audio refused 221 of 252 calls and gave no age estimates. Some of its responses asked for the audio that had already been sent. A control on 2026-11-22 found the cause. gpt-audio ignored the audio in that order, while the server still counted its audio tokens. An earlier probe of four gpt-audio models used the same order, so its results share the problem. The rows from the first run stay in `Results` as the record of the failure.
+
+The study was rerun for gpt-audio with the text part first. Nothing else changed. In the rerun gpt-audio refused 64 of 84 over-13 questions and 71 of 84 over-18 questions. All 19 of its over-13 answers were no. All 10 of its over-18 answers were no. It gave an age estimate on 57 of 84 calls, for 21 of the 28 children. Its mean signed error across the per-child means is 0.03 years. Its mean absolute error is 0.98 years per response. Across the per-child means its mean absolute error is 0.94 years. Guessing 7 years for each of those children gives 0.90 years. The coded rerun is in `gpt-audio control and rerun (2026-11-22)`.
 
 ### Nemotron underestimates and compresses with age
 
@@ -48,4 +51,4 @@ Nemotron answered 251 of 252 calls and drew a single content policy refusal. Its
 
 ### The methodological point
 
-These results show three distinct kinds of failure. Gemini shows how using these models in real settings depends on engineering plumbing that can introduce silent faults with real consequences, such as labeling a child an adult. GPT shows how the retirement and replacement of model versions can swing behavior, since a very similar model now refuses the task or claims the audio is missing, plausibly because a provider policy on biometric inference shifted within a single month. Nemotron shows poor performance on the task itself, underestimating ages and compressing the scale. The data sent to a model and the policy a model is trained to follow can each degrade a deployed application, and neither announces itself in the output.
+These results show three distinct kinds of failure. Gemini shows how using these models in real settings depends on engineering plumbing that can introduce silent faults with real consequences, such as labeling a child an adult. GPT shows how replacing a model version can break a pipeline without warning. Its successor ignored audio placed before the text and refused the task or claimed the audio was missing. With the text first it answered some of the questions. Nemotron shows poor performance on the task itself, underestimating ages and compressing the scale. The data sent to a model and the policy a model is trained to follow can each degrade a deployed application, and neither announces itself in the output.

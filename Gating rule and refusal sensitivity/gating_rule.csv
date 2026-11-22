@@ -1,6 +1,8 @@
 study,model,modality,attempts,pairs_with_both,children,rate_binary_alone,rate_numeric_alone,rate_and_rule,and_ci_lo,and_ci_hi,rate_or_rule,rate_and_rule_fail_safe,and_rule_children_at_least_once,and_rule_children_majority,binary_disagrees_with_numeric
+1A,GPT-4o / gpt-audio,audio,84,17,7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 1A,Gemini,audio,84,84,28,3.6,1.2,0.0,0.0,0.0,4.8,0.0,0.0,0.0,4.8
 1A,Nemotron,audio,84,84,28,23.8,0.0,0.0,0.0,0.0,23.8,0.0,0.0,0.0,23.8
+1B,GPT-4o / gpt-audio,audio,84,12,6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 1B,Gemini,audio,84,84,28,9.5,0.0,0.0,0.0,0.0,9.5,0.0,0.0,0.0,9.5
 1B,Nemotron,audio,84,76,26,39.5,9.2,6.6,1.3,13.3,42.1,6.0,15.4,3.8,35.5
 1C,Gemini,audio,756,749,28,6.1,1.7,0.7,0.1,1.3,7.2,0.7,14.3,0.0,6.5

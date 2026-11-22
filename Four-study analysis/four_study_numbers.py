@@ -1,7 +1,8 @@
 """Recompute the reported numbers on the four studies 1A, 1B, 2A and 2B.
 
 Reuses the coding rule and the Study 2B de-duplication from the
-repository's gating_and_refusals.py. Usage: python3 four_study_numbers.py REPO_ROOT OUT_JSON
+repository's gating_and_refusals.py. That module also swaps in the text-first
+gpt-audio rerun for Studies 1A and 1B. Usage: python3 four_study_numbers.py REPO_ROOT OUT_JSON
 """
 import importlib.util
 import json
@@ -57,27 +58,37 @@ OUT["contradictions"] = dict(pairs=n, bad=k, pct=round(100 * k / n, 1), cells_wi
 # Response-level bootstrap CIs, audio, both questions.
 np.random.seed(20261011)
 rows = []
-for (study, model, modality, q), g in b[b.modality == "audio"].groupby(["study", "model", "modality", "question"]):
-    v = g[g.code.isin(["yes", "no"])]
-    if not len(v):
-        continue
-    lo, hi = gr.boot_ci((v.code == "yes").to_numpy(int), v.child.to_numpy())
-    rows.append(dict(study=study, model=model, q=q, n=len(v), rate=round(100 * (v.code == "yes").mean(), 1),
-                     lo=round(lo, 1), hi=round(hi, 1)))
-ci = pd.DataFrame(rows)
+cells = list(b[b.modality == "audio"].groupby(["study", "model", "modality", "question"]))
+# The text-first gpt-audio cells draw last, so the other cells keep their draws.
+for late in (False, True):
+    for (study, model, modality, q), g in cells:
+        v = g[g.code.isin(["yes", "no"])]
+        if not len(v) or gr.is_rerun_cell(study, model) != late:
+            continue
+        lo, hi = gr.boot_ci((v.code == "yes").to_numpy(int), v.child.to_numpy())
+        rows.append(dict(study=study, model=model, q=q, n=len(v), rate=round(100 * (v.code == "yes").mean(), 1),
+                         lo=round(lo, 1), hi=round(hi, 1)))
+ci = pd.DataFrame(rows).sort_values(["study", "model", "q"]).reset_index(drop=True)
 print(ci.to_string(index=False))
 
-# Reference-point counts.
-o13 = ci[ci.q == "q1_over_13"]
-o18 = ci[ci.q == "q2_over_18"]
+# Reference-point counts. The text-first gpt-audio cells of Studies 1A and 1B
+# have 9 to 19 valid answers each. They are too small to count for or against a
+# reference point, so they stay out of every count and range here. Their
+# per-cell rows are kept in the table above and in per_child_rates.csv.
+counted = ci[[not gr.is_rerun_cell(s, m) for s, m in zip(ci.study, ci.model)]]
+o13 = counted[counted.q == "q1_over_13"]
+o18 = counted[counted.q == "q2_over_18"]
 OUT["o13_cells"] = len(o13)
 OUT["o13_meet"] = int((o13.rate <= 5).sum())
 OUT["o13_over3x"] = int((o13.rate > 15).sum())
 OUT["o18_exceed"] = int((o18.rate > 1).sum())
 pc = gr.per_child_rates(b)
-pca = pc[pc.modality == "audio"]
+pca = pc[(pc.modality == "audio") & np.array([not gr.is_rerun_cell(s, m) for s, m in zip(pc.study, pc.model)])]
 OUT["o13_child_maj_exceed"] = int((pca[pca.question == "over 13"].children_majority > 5).sum())
 OUT["o18_child_maj_exceed"] = int((pca[pca.question == "over 18"].children_majority > 1).sum())
+excluded = ci[[gr.is_rerun_cell(s, m) for s, m in zip(ci.study, ci.model)]]
+print(f"reference-point counts and the over-13 range exclude {len(excluded)} text-first gpt-audio cells "
+      f"of Studies 1A and 1B, valid n {sorted(excluded.n.tolist())}. Their rows stay in the table above.")
 print({k: OUT[k] for k in OUT if k.startswith("o1")})
 print("range over 13 audio", o13.rate.min(), o13.rate.max())
 
@@ -165,11 +176,10 @@ print("corrupted Gemini: valid", len(v), "of", len(gq), "mean", round(v.pred_age
 OUT["corrupted"] = dict(valid=len(v), n=len(gq), mean=round(v.pred_age.mean(), 1),
                         mae=round((v.pred_age - v.actual_age).abs().mean(), 1))
 
-# gpt-audio open-age responses on 1A and 1B.
+# gpt-audio open-age responses on 1A and 1B, text-first rerun.
 for study in ["1A", "1B"]:
-    path, idcol, _ = gr.RAW[study]
-    d = pd.read_csv(os.path.join(ROOT, path))
-    g = d[(d.model == "gpt_audio") & (d.question == "q3_age")]
+    d = gr.load_rerun(study)
+    g = d[d.question == "q3_age"]
     nonref = g.refusal_check != "refused"
     print(study, "gpt-audio q3 attempts", len(g), "non-refusal", round(100 * nonref.mean(), 1),
           "with an age", int(g.pred_age.notna().sum()))

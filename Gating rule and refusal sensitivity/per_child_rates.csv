@@ -1,6 +1,8 @@
 study,model,modality,question,valid_n,children,rate_responses,children_at_least_once,children_majority
+1A,GPT-4o / gpt-audio,audio,over 13,19,8,0.0,0.0,0.0
 1A,Gemini,audio,over 13,84,28,3.6,10.7,0.0
 1A,Nemotron,audio,over 13,84,28,23.8,50.0,17.9
+1B,GPT-4o / gpt-audio,audio,over 13,12,6,0.0,0.0,0.0
 1B,Gemini,audio,over 13,84,28,9.5,14.3,7.1
 1B,Nemotron,audio,over 13,81,28,39.5,64.3,35.7
 1C,Gemini,audio,over 13,751,28,6.1,67.9,0.0
@@ -17,8 +19,10 @@ study,model,modality,question,valid_n,children,rate_responses,children_at_least_
 2B,Gemini,text,over 13,749,250,73.6,89.6,79.6
 2B,Nemotron,audio,over 13,748,250,29.7,48.4,29.6
 2B,Nemotron,text,over 13,750,250,1.2,3.2,0.4
+1A,GPT-4o / gpt-audio,audio,over 18,10,4,0.0,0.0,0.0
 1A,Gemini,audio,over 18,84,28,9.5,17.9,10.7
 1A,Nemotron,audio,over 18,83,28,12.0,21.4,7.1
+1B,GPT-4o / gpt-audio,audio,over 18,9,5,0.0,0.0,0.0
 1B,Gemini,audio,over 18,84,28,4.8,14.3,0.0
 1B,Nemotron,audio,over 18,80,27,22.5,37.0,25.9
 1C,Gemini,audio,over 18,752,28,5.9,53.6,0.0

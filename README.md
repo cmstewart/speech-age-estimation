@@ -78,9 +78,10 @@ wav2vec 2.0 age and gender model released by audEERING.
 
 At a very high level, there is some usable age signal in the clips, but not enough.
 
-- Models classified children as over 13 on 2.5% to 42.5% of audio responses.
-- Only 3 of 12 model and condition combinations met the 5% reference point on the over-13 question.
-- Every model that answered placed some 5 to 11 year olds over 18. Ten of 12 model ~ study combinations exceeded the 1% reference point on the over-18 question.
+- Models classified children as over 13 on 2.5% to 42.5% of audio responses in the twelve combinations with adequate data.
+- Only 3 of those 12 combinations met the 5% reference point.
+- Gemini, GPT-4o Audio Preview and Nemotron each placed some 5 to 11 year olds over 18. Ten of the 12 combinations exceeded the 1% reference point on the over-18 question.
+- The gpt-audio rerun left 9 to 19 valid answers per threshold cell, and none of them was a yes. Those cells are too small to count for or against a reference point.
 - The models' responses are inconsistent. Gemini’s over-13 rate under noise was 6.1% per response, yet 67.9% of children were misclassified on at least one of their 27 queries.
 - There is more signal in audio than in transcripts. From transcripts, Gemini and GPT-4o each placed more than half of the MyST children over 13. From the audio of the same speech the rates were 11.6% and 2.5%, respectively.
 - The dedicated speech-age model did worse than the audio-capable large language models. It placed 42.9% of scripted clips and 64.3% of spontaneous clips at 13 or older.
@@ -92,8 +93,8 @@ status code or a change in output format. Each would have passed standard
 monitoring.
 
 1. **The pipeline corrupted the input.** Version 0.4.0 of the google-genai client library encoded inline audio in base64 twice. Gemini received an unreadable string of characters in place of each recording, but it answered anyway. Its mean age estimate for children with a true mean age of 7.4 was 36.8 years. A capture of the outgoing request confirmed the defect. We subsequently upgraded the library to version 2.0.0, at which point this behavior vanished.
-2. **The model changed underneath the tool.** OpenAI retired GPT-4o Audio Preview in May 2026 and replaced it with gpt-audio. On identical Kids VA clips, gpt-audio refused both threshold questions on all 924 attempts at each. It never produced an age.
-3. **The model’s answers disagreed with each other.** A speaker over 18 is necessarily over 13. Of 8,340 paired answers, 264 indicated that speakers were both under 13 and over 18 *for the same speech sample*. Nemotron also answered that 39.5% of spontaneous Kids VA clips came from speakers over 13, even though its own numeric estimates put only 8.9% of them there.
+2. **The model changed underneath the tool.** OpenAI retired GPT-4o Audio Preview in May 2026 and replaced it with gpt-audio. Our requests placed the audio before the text. Preview had answered requests in that order. gpt-audio ignored the audio in that order. The server still received the audio and counted its tokens. No error or warning came back. On Kids VA, gpt-audio refused every threshold question or asked for the audio it had already been sent. A control with an adult voice on November 22, 2026 found the cause. Moving the text before the audio was the only change needed. In a rerun of Studies 1A and 1B in that order, gpt-audio gave 19 valid answers to the over-13 question in Study 1A and 12 in Study 1B. It gave 10 valid answers to the over-18 question in Study 1A and 9 in Study 1B. Every one of those answers was no. It estimated an age for 21 of the 28 children in Study 1A and 19 of the 28 in Study 1B.
+3. **The model’s answers disagreed with each other.** A speaker over 18 is necessarily over 13. Of 9,687 paired answers, 329 indicated that speakers were both under 13 and over 18 *for the same speech sample*. Nemotron also answered that 39.5% of spontaneous Kids VA clips came from speakers over 13, even though its own numeric estimates put only 8.9% of them there.
 
 ## What we recommend
 
@@ -126,6 +127,7 @@ assurance system. Section 9 of the paper gives the complete list.
 | `Four-study analysis` | The analysis restricted to Studies 1A, 1B, 2A and 2B, with its scripts, figures and outputs |
 | `Gating rule and refusal sensitivity` | The script that reproduces every threshold table in the paper, its output CSVs, and the table rows as LaTeX |
 | `Binary question analysis` | An earlier consistency check between threshold answers and numeric estimates, with its figures |
+| `gpt-audio control and rerun (2026-11-22)` | The transport control on gpt-audio, the coded text-first rerun of Studies 1A and 1B and the scripts that ran them |
 | `First collection phase (superseded, google-genai 0.4.0)` | Runs under the defective client library. They are kept as evidence of the defect and as the source of the GPT-4o Audio Preview refusal rates on Kids VA |
 
 Each study folder has its own README.
@@ -147,8 +149,14 @@ The columns work as follows:
 - `pred_age` holds the parsed numeric estimate
 - `refusal_check` appears in the Kids VA files only and takes the values `refused`, `no_audio`, `error` and `other`
 
-The `refusal_check` column records the classification behind the paper’s
-comparison of refusals across the two OpenAI endpoints.
+The `refusal_check` column sorts each response by its wording. A response
+with refusal language is `refused`. A response that asks for the audio is
+`no_audio`. The column does not show whether the audio arrived. The paper
+uses it to compare refusals across the two OpenAI endpoints. The gpt-audio
+rows in the Study 1A and 1B folders come from requests that placed the audio
+before the text. Those rows record what gpt-audio said while it ignored the
+audio. The text-first rerun carries the same column in
+`gpt-audio control and rerun (2026-11-22)/rerun_coded.csv`.
 
 ## Getting the corpora
 
@@ -174,7 +182,9 @@ threshold table in the paper. It reads the coded outcomes for every study. It
 keeps each student’s first presentation in the Study 2B GPT-4o audio
 condition. It writes the rates under three treatments of excluded responses,
 the per-child rates under both rules, the gating-rule analysis and
-`table_rows.tex`. Confidence intervals come from a percentile bootstrap that
+`table_rows.tex`. For gpt-audio on Studies 1A and 1B it uses the text-first
+rerun. It drops gpt-audio on Study 1C, which was not rerun. Confidence
+intervals come from a percentile bootstrap that
 resamples speakers with replacement over 10,000 draws with a fixed seed. The
 script runs in a few seconds.
 
@@ -218,7 +228,7 @@ describes the episode and its remediation in full.
   author = {Stewart, Christopher M. and Kraus, Kelsey and Casal, J. Elliott and Brown, Geoffrey L.},
   year   = {2026},
   note   = {Poster at the NeurIPS 2026 Workshop on Child Safety in AI},
-  eprint = {ARXIV-ID},
+  eprint = {2611.18971},
   archivePrefix = {arXiv}
 }
 ```
